@@ -1,11 +1,26 @@
 package snes.v1.pintest.component;
 
+import java.util.Scanner;
+
 import no.ntnu.item.arctis.runtime.Block;
 
 public class Component extends Block {
 
-	public void testOutput() {
-		System.out.println("Hello Pi:T6");
+	public int initPin() {
+		
+		System.out.println("Choose GPIO pin");
+		Scanner scanner = new Scanner(System.in);
+		int pin = scanner.nextInt();
+		System.out.println("Chose: "+pin);
+		return pin;
+	}
+
+	public void isHigh() {
+		System.out.println("420 blaze");
+	}
+	
+	public void isLow() {
+		System.out.println("No go");
 	}
 
 }
