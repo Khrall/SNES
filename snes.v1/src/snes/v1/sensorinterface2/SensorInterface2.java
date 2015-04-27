@@ -3,6 +3,9 @@ package snes.v1.sensorinterface2;
 import no.ntnu.item.arctis.runtime.Block;
 
 public class SensorInterface2 extends Block {
+	public int PinInPIR;
+	public int PinOutPIR;
+	
 	private static final int THRESHOLD = 500;
 	private static final int TIMETOMOVE = 1500;
 	private static final int IN = 0, OUT = 1;
@@ -52,5 +55,10 @@ public class SensorInterface2 extends Block {
 			return -(1 + (int) (delta / TIMETOMOVE));
 		} else
 			return 0;
+	}
+
+	public void setParameters(int[] params) {
+		PinInPIR = params[0];
+		PinOutPIR = params[1];
 	}
 }

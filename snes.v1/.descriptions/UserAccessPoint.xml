@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<block
+    name="User Access Point" 
+    uuid="_7uh2YekTEeSAfNRdprKk9Q" 
+    status="under construction" 
+    type="system" 
+    >
+    <required>
+        <library path="lib/org.json.jar"/>
+        <block name="c0" uuid="_CDPgcD5UEeSLNMcFh65MeQ"/>
+    </required>
+</block>

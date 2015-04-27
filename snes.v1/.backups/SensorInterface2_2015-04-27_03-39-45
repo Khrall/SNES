@@ -14,14 +14,10 @@
           <transition xmi:id="_805mEezYEeSVhd3aNhg8oA" name="stop / stopped" source="_80QF0OzYEeSVhd3aNhg8oA" target="_-jeyUOzZEeSVhd3aNhg8oA"/>
           <transition xmi:id="_VPIq4OzaEeSVhd3aNhg8oA" name=" / sensorEvent" source="_80QF0OzYEeSVhd3aNhg8oA" target="_80QF0OzYEeSVhd3aNhg8oA"/>
           <transition xmi:id="_KZHC4OziEeSVhd3aNhg8oA" name="init / initError" source="_80G74OzYEeSVhd3aNhg8oA" target="_KZHp8eziEeSVhd3aNhg8oA"/>
-          <transition xmi:id="_M5sT0OzjEeSVhd3aNhg8oA" name="init / " source="_80G74OzYEeSVhd3aNhg8oA" target="_M5s64ezjEeSVhd3aNhg8oA"/>
-          <transition xmi:id="_P9pNAOzjEeSVhd3aNhg8oA" name=" / initError" source="_M5s64ezjEeSVhd3aNhg8oA" target="_P9p0EezjEeSVhd3aNhg8oA"/>
           <subvertex xmi:type="uml:Pseudostate" xmi:id="_80G74OzYEeSVhd3aNhg8oA" name="&lt;initial>"/>
           <subvertex xmi:type="uml:State" xmi:id="_80QF0OzYEeSVhd3aNhg8oA" name="active"/>
           <subvertex xmi:type="uml:FinalState" xmi:id="_-jeyUOzZEeSVhd3aNhg8oA" name="&lt;final>"/>
           <subvertex xmi:type="uml:FinalState" xmi:id="_KZHp8eziEeSVhd3aNhg8oA" name="&lt;final>"/>
-          <subvertex xmi:type="uml:State" xmi:id="_M5s64ezjEeSVhd3aNhg8oA" name="initializing"/>
-          <subvertex xmi:type="uml:FinalState" xmi:id="_P9p0EezjEeSVhd3aNhg8oA" name="&lt;final>"/>
         </region>
       </ownedBehavior>
       <ownedOperation xmi:id="_U-inTetzEeS6YZvSOJEjKQ" name="motionDone"/>
@@ -267,6 +263,4 @@
   <graphics:Shape xmi:id="_5yqOAOzhEeSVhd3aNhg8oA" aux1="40 0 277 -413  40 414 277 1 " base_Element="_wGuUMOzhEeSVhd3aNhg8oA"/>
   <arctis:event xmi:id="_KZHp8OziEeSVhd3aNhg8oA" base_Transition="_KZHC4OziEeSVhd3aNhg8oA" triggers="_m3CZ4OzTEeSVhd3aNhg8oA" effects="_nGLgwOzhEeSVhd3aNhg8oA"/>
   <graphics:Shape xmi:id="_zpYGIOziEeSVhd3aNhg8oA" x="632" y="710" base_Element="_zpCu8OziEeSVhd3aNhg8oA"/>
-  <arctis:event xmi:id="_M5s64OzjEeSVhd3aNhg8oA" base_Transition="_M5sT0OzjEeSVhd3aNhg8oA" triggers="_m3CZ4OzTEeSVhd3aNhg8oA"/>
-  <arctis:event xmi:id="_P9p0EOzjEeSVhd3aNhg8oA" base_Transition="_P9pNAOzjEeSVhd3aNhg8oA" effects="_nGLgwOzhEeSVhd3aNhg8oA"/>
 </xmi:XMI>

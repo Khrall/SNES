@@ -1,64 +1,65 @@
 package snes.v1.sensorcontroller;
 
+import java.math.BigInteger;
+import java.security.MessageDigest;
+import java.security.NoSuchAlgorithmException;
 import java.util.ArrayList;
+import java.util.Scanner;
+
+import org.json.JSONException;
+import org.json.JSONObject;
+
+import com.bitreactive.library.mqtt.MQTTMessage;
 
 import no.ntnu.item.arctis.runtime.Block;
 
 public class SensorController extends Block {
 
-	private ArrayList<Event> bufferedEvents;
-	private long startTime = System.currentTimeMillis();
-	private int hour;
-	private boolean newHour;
+	private final String topic = "snes-sensor";
+	private String room;
+	private int door;
 	
-	public void updateTime() {
-		long delta = System.currentTimeMillis() - startTime;
-		int now = (int) delta / (1000 * 60 * 60);
-		newHour = now > hour;
-		hour = now;
-	}
-	
-	
-	
-	public String getBufferedEvents() {
-		// Create JSONArray
-		for(int i = 0; i < bufferedEvents.size(); i++) {
-			// Get JSONObject
-			// Append to JSONArray
+	public MQTTMessage createMessage(int numPeople) {
+		JSONObject json = new JSONObject();
+		
+		try {
+			json.put("room", room);
+			json.put("door", door);
+			json.put("newPerson", numPeople);
+		} catch(JSONException e) {
+			e.printStackTrace();
 		}
 		
-		return null; // JSONArray.toString();
-	}
-	
-	public Event saveEvent(int numPeople) {
-		long time = System.currentTimeMillis();
-		Event newEvent = new Event(numPeople, time);
-		bufferedEvents.add(newEvent);
-		return newEvent;
-	}
-	
-	public String toJSONObject(Event e) {
-		// Create JSONObject
-		// put('num', getNumPeople());
-		// put('time', getTime());
-		return null;
-	}
-	
-	public String toJSONString(Event e) {
-		return toJSONObject(e); // toString
-	}
-	
-	class Event {
-		private int numPeople;
-		private long time;
+		String jsonString = json.toString();
+		byte[] bytes = jsonString.getBytes();
+		MQTTMessage message = new MQTTMessage(bytes, topic);
+		message.setQoS(2);
 		
-		public Event(int numPeople, long time) {
-			this.numPeople = numPeople;
-			this.time = time;
+		return message;
+	}
+	
+	public String makeChecksum() {
+		try {
+			String hashingKey = room + "rayray654";
+			MessageDigest messageDigest = MessageDigest.getInstance("MD5");
+			byte[] bytes = messageDigest.digest(hashingKey.getBytes());
+			BigInteger number = new BigInteger(1, bytes);
+			String hashtext = number.toString(16);
+			while (hashtext.length() < 32) {
+				hashtext = "0" + hashtext;
+			}
+			return hashtext;
+		} catch (NoSuchAlgorithmException e) {
+			throw new RuntimeException(e);
 		}
-		
-		public int getNumPeople() { return numPeople; }
-		public long getTime() { return time; }
+	}
+
+	public void setParams(int[] params) {
+		room = Integer.toString(params[0]);
+		door = params[1];
+	}
+
+	public void stopController() {
 	}
 
 }

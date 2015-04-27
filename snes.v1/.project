@@ -3,6 +3,8 @@
 	<name>snes.v1</name>
 	<comment></comment>
 	<projects>
+		<project>snes</project>
+		<project>snes.snestest_exe</project>
 	</projects>
 	<buildSpec>
 		<buildCommand>

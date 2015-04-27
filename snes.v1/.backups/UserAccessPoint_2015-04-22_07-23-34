@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:arctis="http:///schemas/arctis/_WFTqUHjGEdyxtoUMycQn9Q/10" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:graphics="http:///schemas/graphics/_gd9EwIuAEdytfOWtpACIqw/6" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http:///schemas/arctis/_WFTqUHjGEdyxtoUMycQn9Q/10 pathmap://ARCTIS_PROFILES/arctis.profile.uml#_WFTqUXjGEdyxtoUMycQn9Q http:///schemas/graphics/_gd9EwIuAEdytfOWtpACIqw/6 pathmap://RAMSES_GRAPHIC_PROFILES/no.ntnu.item.ramses.graphicprofile.uml#_geG1wIuAEdytfOWtpACIqw">
+  <uml:Package xmi:id="_7tNnwOkTEeSAfNRdprKk9Q" name="snes.v1">
+    <packagedElement xmi:type="uml:Collaboration" xmi:id="_7tOO0ukTEeSAfNRdprKk9Q" name="User Access Point" classifierBehavior="_7uh2YekTEeSAfNRdprKk9Q" collaborationRole="_7ukSoOkTEeSAfNRdprKk9Q">
+      <ownedAttribute xmi:id="_7ukSoOkTEeSAfNRdprKk9Q" name="component"/>
+      <ownedBehavior xmi:type="uml:Activity" xmi:id="_7uh2YekTEeSAfNRdprKk9Q" name="User Access Point" node="_8lt9EOkTEeSAfNRdprKk9Q _-ify0OkTEeSAfNRdprKk9Q" group="_7uk5sOkTEeSAfNRdprKk9Q" partition="_7uk5sOkTEeSAfNRdprKk9Q">
+        <ownedOperation xmi:id="_-igZ4OkTEeSAfNRdprKk9Q" name="initParams"/>
+        <edge xmi:type="uml:ControlFlow" xmi:id="_TREToOkUEeSAfNRdprKk9Q" name="e0" inPartition="_7uk5sOkTEeSAfNRdprKk9Q" target="_-ify0OkTEeSAfNRdprKk9Q" source="_8lt9EOkTEeSAfNRdprKk9Q"/>
+        <group xmi:type="uml:ActivityPartition" xmi:id="_7uk5sOkTEeSAfNRdprKk9Q" name="component" node="_8lt9EOkTEeSAfNRdprKk9Q _-ify0OkTEeSAfNRdprKk9Q _QCiiIekUEeSAfNRdprKk9Q" edge="_TREToOkUEeSAfNRdprKk9Q"/>
+        <node xmi:type="uml:InitialNode" xmi:id="_8lt9EOkTEeSAfNRdprKk9Q" name="i0" outgoing="_TREToOkUEeSAfNRdprKk9Q" inPartition="_7uk5sOkTEeSAfNRdprKk9Q"/>
+        <node xmi:type="uml:CallOperationAction" xmi:id="_-ify0OkTEeSAfNRdprKk9Q" name="o0" incoming="_TREToOkUEeSAfNRdprKk9Q" inPartition="_7uk5sOkTEeSAfNRdprKk9Q" operation="_-igZ4OkTEeSAfNRdprKk9Q">
+          <result xmi:id="_QCiiIekUEeSAfNRdprKk9Q" name="" inPartition="_7uk5sOkTEeSAfNRdprKk9Q" type="_QCiiIOkUEeSAfNRdprKk9Q"/>
+        </node>
+      </ownedBehavior>
+    </packagedElement>
+    <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_QCiiIOkUEeSAfNRdprKk9Q" name="Parameters"/>
+    <profileApplication xmi:id="_7tOO0OkTEeSAfNRdprKk9Q">
+      <eAnnotations xmi:id="_7tOO0ekTEeSAfNRdprKk9Q" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="pathmap://ARCTIS_PROFILES/arctis.profile.uml#_WFTqUXjGEdyxtoUMycQn9Q"/>
+      </eAnnotations>
+      <appliedProfile href="pathmap://ARCTIS_PROFILES/arctis.profile.uml#_rE77YK4iEduZSuTiwKs5Lw"/>
+    </profileApplication>
+    <profileApplication xmi:id="_7ukSoekTEeSAfNRdprKk9Q">
+      <eAnnotations xmi:id="_7ukSoukTEeSAfNRdprKk9Q" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="pathmap://RAMSES_GRAPHIC_PROFILES/no.ntnu.item.ramses.graphicprofile.uml#_geG1wIuAEdytfOWtpACIqw"/>
+      </eAnnotations>
+      <appliedProfile href="pathmap://RAMSES_GRAPHIC_PROFILES/no.ntnu.item.ramses.graphicprofile.uml#_UEANMUVlEduH9aQE_pc66w"/>
+    </profileApplication>
+  </uml:Package>
+  <arctis:system xmi:id="_7uh2YOkTEeSAfNRdprKk9Q" base_Collaboration="_7tOO0ukTEeSAfNRdprKk9Q"/>
+  <arctis:system xmi:id="_7uh2YukTEeSAfNRdprKk9Q" base_Activity="_7uh2YekTEeSAfNRdprKk9Q"/>
+  <graphics:Shape xmi:id="_7ukSo-kTEeSAfNRdprKk9Q" x="250" y="220" width="120" height="70" base_Element="_7ukSoOkTEeSAfNRdprKk9Q"/>
+  <graphics:Shape xmi:id="_7uk5sekTEeSAfNRdprKk9Q" x="180" y="55" width="613" height="54" base_Element="_7uh2YekTEeSAfNRdprKk9Q"/>
+  <graphics:Shape xmi:id="_7uk5sukTEeSAfNRdprKk9Q" x="180" y="108" width="613" height="415" base_Element="_7uk5sOkTEeSAfNRdprKk9Q"/>
+  <graphics:Shape xmi:id="_8m7eAOkTEeSAfNRdprKk9Q" x="244" y="63" base_Element="_8lt9EOkTEeSAfNRdprKk9Q"/>
+  <graphics:Shape xmi:id="_-il5cOkTEeSAfNRdprKk9Q" x="162" y="162" width="199" height="55" base_Element="_-ify0OkTEeSAfNRdprKk9Q"/>
+</xmi:XMI>
