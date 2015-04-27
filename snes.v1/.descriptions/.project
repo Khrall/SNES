@@ -3,4 +3,7 @@
     version="1.0.0" 
     uuid="_lnGV8Oj3EeSuwcZWCMZd9A" 
     >
+    <dependencies>
+        <dependency name="com.bitreactive.library.rpi.gpio" uuid="_lGtC4d_OEeGL2rJphUX6cg" version="1.8.0"/>
+    </dependencies>
 </project>
