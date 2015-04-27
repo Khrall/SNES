@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project
+    title="snes.v1" 
     version="1.0.0" 
     uuid="_lnGV8Oj3EeSuwcZWCMZd9A" 
     >
@@ -7,4 +8,7 @@
         <dependency name="com.bitreactive.library.mqtt" uuid="_iVDkMOJLEeGulKFN7xtCsw" version="2.9.2"/>
         <dependency name="com.bitreactive.library.rpi.gpio" uuid="_lGtC4d_OEeGL2rJphUX6cg" version="1.8.0"/>
     </dependencies>
+    <licenses>
+        <license tag="epl-v1.0" title="Eclipse Public License - v 1.0" url="http%3A%2F%2Fwww.eclipse.org%2Flegal%2Fepl-v10.html" file="licenses/epl-v10.txt"/>
+    </licenses>
 </project>

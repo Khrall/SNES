@@ -7,6 +7,9 @@
     >
     <required>
         <library path="lib/org.json.jar"/>
+        <package name="com.bitreactive.library.mqtt"/>
+        <package name="com.bitreactive.library.mqtt.robustmqtt"/>
+        <package name="snes.v1.useraccesspoint.component"/>
         <block name="c0" uuid="_CDPgcD5UEeSLNMcFh65MeQ"/>
     </required>
 </block>

@@ -6,6 +6,7 @@
     type="block" 
     >
     <required>
+        <package name="snes.v1.sensorinterface2"/>
         <block name="c0" uuid="_NgzUId_EEeGTqJKutJKuOQ"/>
         <block name="c1" uuid="_NgzUId_EEeGTqJKutJKuOQ"/>
     </required>

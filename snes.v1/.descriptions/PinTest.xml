@@ -6,6 +6,7 @@
     type="system" 
     >
     <required>
+        <package name="snes.v1.pintest.component"/>
         <block name="c0" uuid="_NgzUId_EEeGTqJKutJKuOQ"/>
         <block name="c1" uuid="_EdS1A-kiEeSuwcZWCMZd9A"/>
     </required>
