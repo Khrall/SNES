@@ -22,5 +22,14 @@ public class Component extends Block {
 	public void isLow() {
 		System.out.println("No go");
 	}
+	
+	public void printError(String error) {
+		System.out.println("Got error: ");
+		System.out.println(error);
+	}
+	
+	public void printOk() {
+		System.out.println("Was initialized b-u-t-4");
+	}
 
 }

@@ -8,5 +8,6 @@
     <required>
         <library path="lib/org.json.jar"/>
         <block name="c0" uuid="_CDPgcD5UEeSLNMcFh65MeQ"/>
+        <block name="c1" uuid="_W1mt4-zkEeSVhd3aNhg8oA"/>
     </required>
 </block>

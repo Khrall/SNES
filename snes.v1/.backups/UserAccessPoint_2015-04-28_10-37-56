@@ -146,7 +146,7 @@
   <graphics:Shape xmi:id="_7ukSo-kTEeSAfNRdprKk9Q" x="250" y="220" width="120" height="70" base_Element="_7ukSoOkTEeSAfNRdprKk9Q"/>
   <graphics:Shape xmi:id="_7uk5sekTEeSAfNRdprKk9Q" x="180" y="55" width="613" height="54" base_Element="_7uh2YekTEeSAfNRdprKk9Q"/>
   <graphics:Shape xmi:id="_7uk5sukTEeSAfNRdprKk9Q" x="180" y="108" width="613" height="415" base_Element="_7uk5sOkTEeSAfNRdprKk9Q"/>
-  <graphics:Shape xmi:id="_-il5cOkTEeSAfNRdprKk9Q" x="522" y="90" width="163" height="55" base_Element="_-ify0OkTEeSAfNRdprKk9Q"/>
+  <graphics:Shape xmi:id="_-il5cOkTEeSAfNRdprKk9Q" x="540" y="90" width="127" height="55" base_Element="_-ify0OkTEeSAfNRdprKk9Q"/>
   <arctis:esm xmi:id="_WCAKOOkUEeSAfNRdprKk9Q" base_StateMachine="_WCAKNekUEeSAfNRdprKk9Q"/>
   <arctis:event xmi:id="_WCAxROkUEeSAfNRdprKk9Q" base_Transition="_WCAxQ-kUEeSAfNRdprKk9Q" triggers="_WB_jJOkUEeSAfNRdprKk9Q"/>
   <arctis:event xmi:id="_WCAxRukUEeSAfNRdprKk9Q" base_Transition="_WCAxRekUEeSAfNRdprKk9Q" effects="_WCAKM-kUEeSAfNRdprKk9Q"/>
