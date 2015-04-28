@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:arctis="http:///schemas/arctis/_WFTqUHjGEdyxtoUMycQn9Q/10" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:graphics="http:///schemas/graphics/_gd9EwIuAEdytfOWtpACIqw/6" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http:///schemas/arctis/_WFTqUHjGEdyxtoUMycQn9Q/10 pathmap://ARCTIS_PROFILES/arctis.profile.uml#_WFTqUXjGEdyxtoUMycQn9Q http:///schemas/graphics/_gd9EwIuAEdytfOWtpACIqw/6 pathmap://RAMSES_GRAPHIC_PROFILES/no.ntnu.item.ramses.graphicprofile.uml#_geG1wIuAEdytfOWtpACIqw">
+  <uml:Package xmi:id="_Per2sO3AEeS1kvzSLZNJPQ" name="snes.v1">
+    <packagedElement xmi:type="uml:Activity" xmi:id="_Per2se3AEeS1kvzSLZNJPQ" name="Control" classifierBehavior="_Per2su3AEeS1kvzSLZNJPQ" node="_Per25-3AEeS1kvzSLZNJPQ _Per26O3AEeS1kvzSLZNJPQ _Per26-3AEeS1kvzSLZNJPQ _Per27O3AEeS1kvzSLZNJPQ _Per27u3AEeS1kvzSLZNJPQ _Per28O3AEeS1kvzSLZNJPQ _Per28e3AEeS1kvzSLZNJPQ _Per28u3AEeS1kvzSLZNJPQ _Per28-3AEeS1kvzSLZNJPQ _Per29O3AEeS1kvzSLZNJPQ _Per29e3AEeS1kvzSLZNJPQ _Per29u3AEeS1kvzSLZNJPQ _Per29-3AEeS1kvzSLZNJPQ _Per2-O3AEeS1kvzSLZNJPQ _Per2-e3AEeS1kvzSLZNJPQ _Per2--3AEeS1kvzSLZNJPQ _Per3Au3AEeS1kvzSLZNJPQ _Per3BO3AEeS1kvzSLZNJPQ _Per3Be3AEeS1kvzSLZNJPQ _Per3CO3AEeS1kvzSLZNJPQ" group="_Per2ze3AEeS1kvzSLZNJPQ" partition="_Per2ze3AEeS1kvzSLZNJPQ">
+      <ownedBehavior xmi:type="uml:StateMachine" xmi:id="_Per2su3AEeS1kvzSLZNJPQ" name="Control">
+        <region xmi:id="_Per2s-3AEeS1kvzSLZNJPQ" name="&lt;region>">
+          <transition xmi:id="_Per2tO3AEeS1kvzSLZNJPQ" name="inputMessageMQTT / outputDB" source="_Per2u-3AEeS1kvzSLZNJPQ" target="_Per2u-3AEeS1kvzSLZNJPQ"/>
+          <transition xmi:id="_Per2te3AEeS1kvzSLZNJPQ" name="stop / stopped" source="_Per2u-3AEeS1kvzSLZNJPQ" target="_Per2vO3AEeS1kvzSLZNJPQ"/>
+          <transition xmi:id="_Per2tu3AEeS1kvzSLZNJPQ" name="init / " source="_Per2uu3AEeS1kvzSLZNJPQ" target="_Per2u-3AEeS1kvzSLZNJPQ"/>
+          <transition xmi:id="_Per2t-3AEeS1kvzSLZNJPQ" name="inputMessageMQTT / " source="_Per2u-3AEeS1kvzSLZNJPQ" target="_Per2u-3AEeS1kvzSLZNJPQ"/>
+          <transition xmi:id="_Per2uO3AEeS1kvzSLZNJPQ" name=" / outputDB" source="_Per2u-3AEeS1kvzSLZNJPQ" target="_Per2u-3AEeS1kvzSLZNJPQ"/>
+          <transition xmi:id="_Per2ue3AEeS1kvzSLZNJPQ" name="inputDB / outputMessageMQTT" source="_Per2u-3AEeS1kvzSLZNJPQ" target="_Per2u-3AEeS1kvzSLZNJPQ"/>
+          <subvertex xmi:type="uml:Pseudostate" xmi:id="_Per2uu3AEeS1kvzSLZNJPQ" name="&lt;initial>"/>
+          <subvertex xmi:type="uml:State" xmi:id="_Per2u-3AEeS1kvzSLZNJPQ" name="active"/>
+          <subvertex xmi:type="uml:FinalState" xmi:id="_Per2vO3AEeS1kvzSLZNJPQ" name="&lt;final>"/>
+        </region>
+      </ownedBehavior>
+      <ownedOperation xmi:id="_Per2ve3AEeS1kvzSLZNJPQ" name="saveMessage"/>
+      <ownedOperation xmi:id="_Per2vu3AEeS1kvzSLZNJPQ" name="createInsertQuery"/>
+      <ownedOperation xmi:id="_Per2v-3AEeS1kvzSLZNJPQ" name="createSelectQuery"/>
+      <ownedOperation xmi:id="_Per2wO3AEeS1kvzSLZNJPQ" name="setRunningFalse"/>
+      <ownedOperation xmi:id="_Per2we3AEeS1kvzSLZNJPQ" name="setRunningTrue"/>
+      <ownedOperation xmi:id="_Per2wu3AEeS1kvzSLZNJPQ" name="createBroadcastQuery"/>
+      <ownedOperation xmi:id="_Per2w-3AEeS1kvzSLZNJPQ" name="getRunning"/>
+      <ownedOperation xmi:id="_Per2xO3AEeS1kvzSLZNJPQ" name="createResponseMessage"/>
+      <ownedOperation xmi:id="_Per2xe3AEeS1kvzSLZNJPQ" name="Control"/>
+      <ownedParameter xmi:id="_Per2xu3AEeS1kvzSLZNJPQ" name="inputMessageMQTT" type="_Per3Ku3AEeS1kvzSLZNJPQ" isStream="true"/>
+      <ownedParameter xmi:id="_Per2x-3AEeS1kvzSLZNJPQ" name="outputDB" type="_Per3Le3AEeS1kvzSLZNJPQ" direction="out" isStream="true"/>
+      <ownedParameter xmi:id="_Per2yO3AEeS1kvzSLZNJPQ" name="stop"/>
+      <ownedParameter xmi:id="_Per2ye3AEeS1kvzSLZNJPQ" name="stopped" direction="out"/>
+      <ownedParameter xmi:id="_Per2yu3AEeS1kvzSLZNJPQ" name="init"/>
+      <ownedParameter xmi:id="_Per2y-3AEeS1kvzSLZNJPQ" name="inputDB" type="_Per3Lu3AEeS1kvzSLZNJPQ" isStream="true"/>
+      <ownedParameter xmi:id="_Per2zO3AEeS1kvzSLZNJPQ" name="outputMessageMQTT" type="_Per3Ku3AEeS1kvzSLZNJPQ" direction="out" isStream="true"/>
+      <edge xmi:type="uml:ObjectFlow" xmi:id="_Per2zu3AEeS1kvzSLZNJPQ" name="e0" inPartition="_Per2ze3AEeS1kvzSLZNJPQ" target="_Per26e3AEeS1kvzSLZNJPQ" source="_Per25-3AEeS1kvzSLZNJPQ"/>
+      <edge xmi:type="uml:ObjectFlow" xmi:id="_Per2z-3AEeS1kvzSLZNJPQ" name="e1" inPartition="_Per2ze3AEeS1kvzSLZNJPQ" target="_Per26-3AEeS1kvzSLZNJPQ" source="_Per26u3AEeS1kvzSLZNJPQ"/>
+      <edge xmi:type="uml:ObjectFlow" xmi:id="_Per20O3AEeS1kvzSLZNJPQ" name="e2" inPartition="_Per2ze3AEeS1kvzSLZNJPQ" target="_Per27O3AEeS1kvzSLZNJPQ" source="_Per26-3AEeS1kvzSLZNJPQ">
+        <guard xmi:type="uml:LiteralInteger" xmi:id="_Per20e3AEeS1kvzSLZNJPQ" name="0"/>
+      </edge>
+      <edge xmi:type="uml:ObjectFlow" xmi:id="_Per20u3AEeS1kvzSLZNJPQ" name="e3" inPartition="_Per2ze3AEeS1kvzSLZNJPQ" target="_Per27u3AEeS1kvzSLZNJPQ" source="_Per26-3AEeS1kvzSLZNJPQ">
+        <guard xmi:type="uml:LiteralInteger" xmi:id="_Per20-3AEeS1kvzSLZNJPQ" name="1" value="1"/>
+      </edge>
+      <edge xmi:type="uml:ObjectFlow" xmi:id="_Per21O3AEeS1kvzSLZNJPQ" name="e4" inPartition="_Per2ze3AEeS1kvzSLZNJPQ" target="_Per28O3AEeS1kvzSLZNJPQ" source="_Per27-3AEeS1kvzSLZNJPQ"/>
+      <edge xmi:type="uml:ObjectFlow" xmi:id="_Per21e3AEeS1kvzSLZNJPQ" name="e5" inPartition="_Per2ze3AEeS1kvzSLZNJPQ" target="_Per28O3AEeS1kvzSLZNJPQ" source="_Per27e3AEeS1kvzSLZNJPQ"/>
+      <edge xmi:type="uml:ControlFlow" xmi:id="_Per21u3AEeS1kvzSLZNJPQ" name="e6" inPartition="_Per2ze3AEeS1kvzSLZNJPQ" target="_Per28e3AEeS1kvzSLZNJPQ" source="_Per26-3AEeS1kvzSLZNJPQ">
+        <guard xmi:type="uml:StringExpression" xmi:id="_Per21-3AEeS1kvzSLZNJPQ" name="else"/>
+      </edge>
+      <edge xmi:type="uml:ObjectFlow" xmi:id="_Per22O3AEeS1kvzSLZNJPQ" name="e7" inPartition="_Per2ze3AEeS1kvzSLZNJPQ" target="_Per28u3AEeS1kvzSLZNJPQ" source="_Per28O3AEeS1kvzSLZNJPQ"/>
+      <edge xmi:type="uml:ControlFlow" xmi:id="_Per22e3AEeS1kvzSLZNJPQ" name="e8" inPartition="_Per2ze3AEeS1kvzSLZNJPQ" target="_Per29u3AEeS1kvzSLZNJPQ" source="_Per28-3AEeS1kvzSLZNJPQ"/>
+      <edge xmi:type="uml:ControlFlow" xmi:id="_Per22u3AEeS1kvzSLZNJPQ" name="e9" inPartition="_Per2ze3AEeS1kvzSLZNJPQ" target="_Per29O3AEeS1kvzSLZNJPQ" source="_Per29u3AEeS1kvzSLZNJPQ"/>
+      <edge xmi:type="uml:ControlFlow" xmi:id="_Per22-3AEeS1kvzSLZNJPQ" name="e10" inPartition="_Per2ze3AEeS1kvzSLZNJPQ" target="_Per29-3AEeS1kvzSLZNJPQ" source="_Per29e3AEeS1kvzSLZNJPQ"/>
+      <edge xmi:type="uml:ObjectFlow" xmi:id="_Per23O3AEeS1kvzSLZNJPQ" name="e18" inPartition="_Per2ze3AEeS1kvzSLZNJPQ" target="_Per2-O3AEeS1kvzSLZNJPQ" source="_Per3A-3AEeS1kvzSLZNJPQ"/>
+      <edge xmi:type="uml:ObjectFlow" xmi:id="_Per23e3AEeS1kvzSLZNJPQ" name="e19" inPartition="_Per2ze3AEeS1kvzSLZNJPQ" target="_Per28O3AEeS1kvzSLZNJPQ" source="_Per2-u3AEeS1kvzSLZNJPQ"/>
+      <edge xmi:type="uml:ControlFlow" xmi:id="_Per23u3AEeS1kvzSLZNJPQ" name="e11" inPartition="_Per2ze3AEeS1kvzSLZNJPQ" target="_Per2_O3AEeS1kvzSLZNJPQ" source="_Per29-3AEeS1kvzSLZNJPQ"/>
+      <edge xmi:type="uml:ControlFlow" xmi:id="_Per23-3AEeS1kvzSLZNJPQ" name="e13" inPartition="_Per2ze3AEeS1kvzSLZNJPQ" target="_Per3Au3AEeS1kvzSLZNJPQ" source="_Per3AO3AEeS1kvzSLZNJPQ"/>
+      <edge xmi:type="uml:ObjectFlow" xmi:id="_Per24O3AEeS1kvzSLZNJPQ" name="e14" inPartition="_Per2ze3AEeS1kvzSLZNJPQ" target="_Per2-e3AEeS1kvzSLZNJPQ" source="_Per2-O3AEeS1kvzSLZNJPQ">
+        <guard xmi:type="uml:LiteralBoolean" xmi:id="_Per24e3AEeS1kvzSLZNJPQ" name="true" value="true"/>
+      </edge>
+      <edge xmi:type="uml:ObjectFlow" xmi:id="_Per24u3AEeS1kvzSLZNJPQ" name="e12" inPartition="_Per2ze3AEeS1kvzSLZNJPQ" target="_Per2_e3AEeS1kvzSLZNJPQ" source="_Per2-O3AEeS1kvzSLZNJPQ">
+        <guard xmi:type="uml:LiteralBoolean" xmi:id="_Per24-3AEeS1kvzSLZNJPQ" name="false"/>
+      </edge>
+      <edge xmi:type="uml:ObjectFlow" xmi:id="_Per25O3AEeS1kvzSLZNJPQ" name="e15" inPartition="_Per2ze3AEeS1kvzSLZNJPQ" target="_Per3Bu3AEeS1kvzSLZNJPQ" source="_Per3BO3AEeS1kvzSLZNJPQ"/>
+      <edge xmi:type="uml:ObjectFlow" xmi:id="_Per25e3AEeS1kvzSLZNJPQ" name="e16" inPartition="_Per2ze3AEeS1kvzSLZNJPQ" target="_Per3CO3AEeS1kvzSLZNJPQ" source="_Per3B-3AEeS1kvzSLZNJPQ"/>
+      <variable xmi:id="_Per25u3AEeS1kvzSLZNJPQ" name="running" type="_Per3DO3AEeS1kvzSLZNJPQ"/>
+      <group xmi:type="uml:ActivityPartition" xmi:id="_Per2ze3AEeS1kvzSLZNJPQ" name="main" node="_Per25-3AEeS1kvzSLZNJPQ _Per26O3AEeS1kvzSLZNJPQ _Per26e3AEeS1kvzSLZNJPQ _Per26u3AEeS1kvzSLZNJPQ _Per26-3AEeS1kvzSLZNJPQ _Per27O3AEeS1kvzSLZNJPQ _Per27u3AEeS1kvzSLZNJPQ _Per27e3AEeS1kvzSLZNJPQ _Per27-3AEeS1kvzSLZNJPQ _Per28O3AEeS1kvzSLZNJPQ _Per28e3AEeS1kvzSLZNJPQ _Per28u3AEeS1kvzSLZNJPQ _Per28-3AEeS1kvzSLZNJPQ _Per29O3AEeS1kvzSLZNJPQ _Per29e3AEeS1kvzSLZNJPQ _Per29u3AEeS1kvzSLZNJPQ _Per29-3AEeS1kvzSLZNJPQ _Per2-O3AEeS1kvzSLZNJPQ _Per2-e3AEeS1kvzSLZNJPQ _Per2--3AEeS1kvzSLZNJPQ _Per2_O3AEeS1kvzSLZNJPQ _Per3AO3AEeS1kvzSLZNJPQ _Per2_e3AEeS1kvzSLZNJPQ _Per3Ae3AEeS1kvzSLZNJPQ _Per3Au3AEeS1kvzSLZNJPQ _Per3A-3AEeS1kvzSLZNJPQ _Per2-u3AEeS1kvzSLZNJPQ _Per3BO3AEeS1kvzSLZNJPQ _Per3Be3AEeS1kvzSLZNJPQ _Per3Bu3AEeS1kvzSLZNJPQ _Per3B-3AEeS1kvzSLZNJPQ _Per3CO3AEeS1kvzSLZNJPQ" edge="_Per2zu3AEeS1kvzSLZNJPQ _Per2z-3AEeS1kvzSLZNJPQ _Per20O3AEeS1kvzSLZNJPQ _Per20u3AEeS1kvzSLZNJPQ _Per21O3AEeS1kvzSLZNJPQ _Per21e3AEeS1kvzSLZNJPQ _Per21u3AEeS1kvzSLZNJPQ _Per22O3AEeS1kvzSLZNJPQ _Per22e3AEeS1kvzSLZNJPQ _Per22u3AEeS1kvzSLZNJPQ _Per22-3AEeS1kvzSLZNJPQ _Per23O3AEeS1kvzSLZNJPQ _Per23e3AEeS1kvzSLZNJPQ _Per23u3AEeS1kvzSLZNJPQ _Per23-3AEeS1kvzSLZNJPQ _Per24O3AEeS1kvzSLZNJPQ _Per24u3AEeS1kvzSLZNJPQ _Per25O3AEeS1kvzSLZNJPQ _Per25e3AEeS1kvzSLZNJPQ"/>
+      <node xmi:type="uml:ActivityParameterNode" xmi:id="_Per25-3AEeS1kvzSLZNJPQ" name="inputMessageMQTT" outgoing="_Per2zu3AEeS1kvzSLZNJPQ" inPartition="_Per2ze3AEeS1kvzSLZNJPQ" type="_Per3Ku3AEeS1kvzSLZNJPQ" parameter="_Per2xu3AEeS1kvzSLZNJPQ"/>
+      <node xmi:type="uml:CallOperationAction" xmi:id="_Per26O3AEeS1kvzSLZNJPQ" name="o0" inPartition="_Per2ze3AEeS1kvzSLZNJPQ" operation="_Per2ve3AEeS1kvzSLZNJPQ">
+        <argument xmi:id="_Per26e3AEeS1kvzSLZNJPQ" name="m" incoming="_Per2zu3AEeS1kvzSLZNJPQ" inPartition="_Per2ze3AEeS1kvzSLZNJPQ" type="_TThaQO3AEeS1kvzSLZNJPQ"/>
+        <result xmi:id="_Per26u3AEeS1kvzSLZNJPQ" name="" outgoing="_Per2z-3AEeS1kvzSLZNJPQ" inPartition="_Per2ze3AEeS1kvzSLZNJPQ" type="_Per3Ce3AEeS1kvzSLZNJPQ"/>
+      </node>
+      <node xmi:type="uml:DecisionNode" xmi:id="_Per26-3AEeS1kvzSLZNJPQ" name="d0" incoming="_Per2z-3AEeS1kvzSLZNJPQ" outgoing="_Per20O3AEeS1kvzSLZNJPQ _Per20u3AEeS1kvzSLZNJPQ _Per21u3AEeS1kvzSLZNJPQ" inPartition="_Per2ze3AEeS1kvzSLZNJPQ"/>
+      <node xmi:type="uml:CallOperationAction" xmi:id="_Per27O3AEeS1kvzSLZNJPQ" name="o1" incoming="_Per20O3AEeS1kvzSLZNJPQ" inPartition="_Per2ze3AEeS1kvzSLZNJPQ" operation="_Per2vu3AEeS1kvzSLZNJPQ">
+        <result xmi:id="_Per27e3AEeS1kvzSLZNJPQ" name="" outgoing="_Per21e3AEeS1kvzSLZNJPQ" inPartition="_Per2ze3AEeS1kvzSLZNJPQ" type="_Per3Le3AEeS1kvzSLZNJPQ"/>
+      </node>
+      <node xmi:type="uml:CallOperationAction" xmi:id="_Per27u3AEeS1kvzSLZNJPQ" name="o2" incoming="_Per20u3AEeS1kvzSLZNJPQ" inPartition="_Per2ze3AEeS1kvzSLZNJPQ" operation="_Per2v-3AEeS1kvzSLZNJPQ">
+        <result xmi:id="_Per27-3AEeS1kvzSLZNJPQ" name="" outgoing="_Per21O3AEeS1kvzSLZNJPQ" inPartition="_Per2ze3AEeS1kvzSLZNJPQ" type="_Per3Le3AEeS1kvzSLZNJPQ"/>
+      </node>
+      <node xmi:type="uml:MergeNode" xmi:id="_Per28O3AEeS1kvzSLZNJPQ" name="m0" incoming="_Per21O3AEeS1kvzSLZNJPQ _Per21e3AEeS1kvzSLZNJPQ _Per23e3AEeS1kvzSLZNJPQ" outgoing="_Per22O3AEeS1kvzSLZNJPQ" inPartition="_Per2ze3AEeS1kvzSLZNJPQ"/>
+      <node xmi:type="uml:FlowFinalNode" xmi:id="_Per28e3AEeS1kvzSLZNJPQ" name="z0" incoming="_Per21u3AEeS1kvzSLZNJPQ" inPartition="_Per2ze3AEeS1kvzSLZNJPQ"/>
+      <node xmi:type="uml:ActivityParameterNode" xmi:id="_Per28u3AEeS1kvzSLZNJPQ" name="outputDB" incoming="_Per22O3AEeS1kvzSLZNJPQ" inPartition="_Per2ze3AEeS1kvzSLZNJPQ" type="_Per3Le3AEeS1kvzSLZNJPQ" parameter="_Per2x-3AEeS1kvzSLZNJPQ"/>
+      <node xmi:type="uml:ActivityParameterNode" xmi:id="_Per28-3AEeS1kvzSLZNJPQ" name="stop" outgoing="_Per22e3AEeS1kvzSLZNJPQ" inPartition="_Per2ze3AEeS1kvzSLZNJPQ" parameter="_Per2yO3AEeS1kvzSLZNJPQ"/>
+      <node xmi:type="uml:ActivityParameterNode" xmi:id="_Per29O3AEeS1kvzSLZNJPQ" name="stopped" incoming="_Per22u3AEeS1kvzSLZNJPQ" inPartition="_Per2ze3AEeS1kvzSLZNJPQ" parameter="_Per2ye3AEeS1kvzSLZNJPQ"/>
+      <node xmi:type="uml:ActivityParameterNode" xmi:id="_Per29e3AEeS1kvzSLZNJPQ" name="init" outgoing="_Per22-3AEeS1kvzSLZNJPQ" inPartition="_Per2ze3AEeS1kvzSLZNJPQ" parameter="_Per2yu3AEeS1kvzSLZNJPQ"/>
+      <node xmi:type="uml:CallOperationAction" xmi:id="_Per29u3AEeS1kvzSLZNJPQ" name="o3" incoming="_Per22e3AEeS1kvzSLZNJPQ" outgoing="_Per22u3AEeS1kvzSLZNJPQ" inPartition="_Per2ze3AEeS1kvzSLZNJPQ" operation="_Per2wO3AEeS1kvzSLZNJPQ"/>
+      <node xmi:type="uml:CallOperationAction" xmi:id="_Per29-3AEeS1kvzSLZNJPQ" name="o4" incoming="_Per22-3AEeS1kvzSLZNJPQ" outgoing="_Per23u3AEeS1kvzSLZNJPQ" inPartition="_Per2ze3AEeS1kvzSLZNJPQ" operation="_Per2we3AEeS1kvzSLZNJPQ"/>
+      <node xmi:type="uml:DecisionNode" xmi:id="_Per2-O3AEeS1kvzSLZNJPQ" name="d1" incoming="_Per23O3AEeS1kvzSLZNJPQ" outgoing="_Per24O3AEeS1kvzSLZNJPQ _Per24u3AEeS1kvzSLZNJPQ" inPartition="_Per2ze3AEeS1kvzSLZNJPQ"/>
+      <node xmi:type="uml:CallOperationAction" xmi:id="_Per2-e3AEeS1kvzSLZNJPQ" name="o5" incoming="_Per24O3AEeS1kvzSLZNJPQ" inPartition="_Per2ze3AEeS1kvzSLZNJPQ" operation="_Per2wu3AEeS1kvzSLZNJPQ">
+        <result xmi:id="_Per2-u3AEeS1kvzSLZNJPQ" name="" outgoing="_Per23e3AEeS1kvzSLZNJPQ" inPartition="_Per2ze3AEeS1kvzSLZNJPQ" type="_Per3Le3AEeS1kvzSLZNJPQ"/>
+      </node>
+      <node xmi:type="uml:CallBehaviorAction" xmi:id="_Per2--3AEeS1kvzSLZNJPQ" name="b0" inPartition="_Per2ze3AEeS1kvzSLZNJPQ" behavior="_vCXJcVYREd-4YqQXCGC3ew">
+        <argument xmi:id="_Per2_O3AEeS1kvzSLZNJPQ" name="start" incoming="_Per23u3AEeS1kvzSLZNJPQ" inPartition="_Per2ze3AEeS1kvzSLZNJPQ"/>
+        <argument xmi:id="_Per2_e3AEeS1kvzSLZNJPQ" name="stop" incoming="_Per24u3AEeS1kvzSLZNJPQ" inPartition="_Per2ze3AEeS1kvzSLZNJPQ"/>
+        <argument xmi:type="uml:ValuePin" xmi:id="_Per2_u3AEeS1kvzSLZNJPQ" name="duration" type="_Per3Ce3AEeS1kvzSLZNJPQ">
+          <value xmi:type="uml:LiteralInteger" xmi:id="_Per2_-3AEeS1kvzSLZNJPQ" name="duration" type="_Per3Ce3AEeS1kvzSLZNJPQ" value="10000"/>
+        </argument>
+        <result xmi:id="_Per3AO3AEeS1kvzSLZNJPQ" name="tick" outgoing="_Per23-3AEeS1kvzSLZNJPQ" inPartition="_Per2ze3AEeS1kvzSLZNJPQ"/>
+        <result xmi:id="_Per3Ae3AEeS1kvzSLZNJPQ" name="stopped" inPartition="_Per2ze3AEeS1kvzSLZNJPQ"/>
+      </node>
+      <node xmi:type="uml:CallOperationAction" xmi:id="_Per3Au3AEeS1kvzSLZNJPQ" name="o6" incoming="_Per23-3AEeS1kvzSLZNJPQ" inPartition="_Per2ze3AEeS1kvzSLZNJPQ" operation="_Per2w-3AEeS1kvzSLZNJPQ">
+        <result xmi:id="_Per3A-3AEeS1kvzSLZNJPQ" name="" outgoing="_Per23O3AEeS1kvzSLZNJPQ" inPartition="_Per2ze3AEeS1kvzSLZNJPQ" type="_Per3DO3AEeS1kvzSLZNJPQ"/>
+      </node>
+      <node xmi:type="uml:ActivityParameterNode" xmi:id="_Per3BO3AEeS1kvzSLZNJPQ" name="inputDB" outgoing="_Per25O3AEeS1kvzSLZNJPQ" inPartition="_Per2ze3AEeS1kvzSLZNJPQ" type="_Per3Lu3AEeS1kvzSLZNJPQ" parameter="_Per2y-3AEeS1kvzSLZNJPQ"/>
+      <node xmi:type="uml:CallOperationAction" xmi:id="_Per3Be3AEeS1kvzSLZNJPQ" name="o7" inPartition="_Per2ze3AEeS1kvzSLZNJPQ" operation="_Per2xO3AEeS1kvzSLZNJPQ">
+        <argument xmi:id="_Per3Bu3AEeS1kvzSLZNJPQ" name="response" incoming="_Per25O3AEeS1kvzSLZNJPQ" inPartition="_Per2ze3AEeS1kvzSLZNJPQ" type="_Per3Lu3AEeS1kvzSLZNJPQ"/>
+        <result xmi:id="_Per3B-3AEeS1kvzSLZNJPQ" name="" outgoing="_Per25e3AEeS1kvzSLZNJPQ" inPartition="_Per2ze3AEeS1kvzSLZNJPQ" type="_TThaQO3AEeS1kvzSLZNJPQ"/>
+      </node>
+      <node xmi:type="uml:ActivityParameterNode" xmi:id="_Per3CO3AEeS1kvzSLZNJPQ" name="outputMessageMQTT" incoming="_Per25e3AEeS1kvzSLZNJPQ" inPartition="_Per2ze3AEeS1kvzSLZNJPQ" type="_Per3Ku3AEeS1kvzSLZNJPQ" parameter="_Per2zO3AEeS1kvzSLZNJPQ"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_Per3Ce3AEeS1kvzSLZNJPQ" name="int"/>
+    <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_Per3Cu3AEeS1kvzSLZNJPQ" name="snes.controller.Message"/>
+    <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_Per3C-3AEeS1kvzSLZNJPQ" name="snes.database.DBParams"/>
+    <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_Per3DO3AEeS1kvzSLZNJPQ" name="boolean"/>
+    <packagedElement xmi:type="uml:Package" xmi:id="_Per3De3AEeS1kvzSLZNJPQ" name="com.bitreactive.library.timers">
+      <packagedElement xmi:type="uml:Activity" xmi:id="_vCXJcVYREd-4YqQXCGC3ew" name="Timer Periodic" classifierBehavior="_Per3D-3AEeS1kvzSLZNJPQ" node="_Per3Iu3AEeS1kvzSLZNJPQ _Per3I-3AEeS1kvzSLZNJPQ _Per3JO3AEeS1kvzSLZNJPQ _Per3Je3AEeS1kvzSLZNJPQ" group="_Per3Ie3AEeS1kvzSLZNJPQ" partition="_Per3Ie3AEeS1kvzSLZNJPQ">
+        <ownedBehavior xmi:type="uml:StateMachine" xmi:id="_Per3D-3AEeS1kvzSLZNJPQ" name="Timer Periodic">
+          <region xmi:id="_Per3EO3AEeS1kvzSLZNJPQ" name="&lt;region>">
+            <transition xmi:id="_Per3Ee3AEeS1kvzSLZNJPQ" name="start / " source="_Per3F-3AEeS1kvzSLZNJPQ" target="_Per3GO3AEeS1kvzSLZNJPQ"/>
+            <transition xmi:id="_Per3Eu3AEeS1kvzSLZNJPQ" name=" / tick" source="_Per3GO3AEeS1kvzSLZNJPQ" target="_Per3GO3AEeS1kvzSLZNJPQ"/>
+            <transition xmi:id="_Per3E-3AEeS1kvzSLZNJPQ" name="stop / stopped" source="_Per3GO3AEeS1kvzSLZNJPQ" target="_Per3Ge3AEeS1kvzSLZNJPQ"/>
+            <transition xmi:id="_Per3FO3AEeS1kvzSLZNJPQ" name=" / tick; stop; stopped" source="_Per3GO3AEeS1kvzSLZNJPQ" target="_Per3Ge3AEeS1kvzSLZNJPQ"/>
+            <transition xmi:id="_Per3Fe3AEeS1kvzSLZNJPQ" name="/ " source="_Per3GO3AEeS1kvzSLZNJPQ" target="_Per3Ge3AEeS1kvzSLZNJPQ"/>
+            <transition xmi:id="_Per3Fu3AEeS1kvzSLZNJPQ" name="stop / stopped" source="_Per3F-3AEeS1kvzSLZNJPQ" target="_Per3Ge3AEeS1kvzSLZNJPQ"/>
+            <subvertex xmi:type="uml:Pseudostate" xmi:id="_Per3F-3AEeS1kvzSLZNJPQ" name="&lt;initial>"/>
+            <subvertex xmi:type="uml:State" xmi:id="_Per3GO3AEeS1kvzSLZNJPQ" name="active"/>
+            <subvertex xmi:type="uml:FinalState" xmi:id="_Per3Ge3AEeS1kvzSLZNJPQ" name="&lt;final>"/>
+          </region>
+        </ownedBehavior>
+        <ownedParameter xmi:id="_Per3Hu3AEeS1kvzSLZNJPQ" name="duration" type="_Per3Ce3AEeS1kvzSLZNJPQ">
+          <ownedComment xmi:id="_Per3H-3AEeS1kvzSLZNJPQ">
+            <body>Duration in milliseconds.</body>
+          </ownedComment>
+          <defaultValue xmi:type="uml:LiteralInteger" xmi:id="_Per3IO3AEeS1kvzSLZNJPQ" name="duration" type="_Per3KO3AEeS1kvzSLZNJPQ" value="1000"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_Pfd50O3AEeS1kvzSLZNJPQ" name="start"/>
+        <ownedParameter xmi:id="_Pfd50e3AEeS1kvzSLZNJPQ" name="tick" direction="out" isStream="true"/>
+        <ownedParameter xmi:id="_Pfd50u3AEeS1kvzSLZNJPQ" name="stop" isStream="true"/>
+        <ownedParameter xmi:id="_Pfeg4O3AEeS1kvzSLZNJPQ" name="stopped" direction="out"/>
+        <group xmi:type="uml:ActivityPartition" xmi:id="_Per3Ie3AEeS1kvzSLZNJPQ" name="main" node="_Per3Iu3AEeS1kvzSLZNJPQ _Per3I-3AEeS1kvzSLZNJPQ _Per3JO3AEeS1kvzSLZNJPQ _Per3Je3AEeS1kvzSLZNJPQ"/>
+        <node xmi:type="uml:ActivityParameterNode" xmi:id="_Per3Iu3AEeS1kvzSLZNJPQ" name="start" inPartition="_Per3Ie3AEeS1kvzSLZNJPQ" parameter="_Pfd50O3AEeS1kvzSLZNJPQ"/>
+        <node xmi:type="uml:ActivityParameterNode" xmi:id="_Per3I-3AEeS1kvzSLZNJPQ" name="tick" inPartition="_Per3Ie3AEeS1kvzSLZNJPQ" parameter="_Pfd50e3AEeS1kvzSLZNJPQ"/>
+        <node xmi:type="uml:ActivityParameterNode" xmi:id="_Per3JO3AEeS1kvzSLZNJPQ" name="stop" inPartition="_Per3Ie3AEeS1kvzSLZNJPQ" parameter="_Pfd50u3AEeS1kvzSLZNJPQ"/>
+        <node xmi:type="uml:ActivityParameterNode" xmi:id="_Per3Je3AEeS1kvzSLZNJPQ" name="stopped" inPartition="_Per3Ie3AEeS1kvzSLZNJPQ" parameter="_Pfeg4O3AEeS1kvzSLZNJPQ"/>
+      </packagedElement>
+      <profileApplication xmi:id="_Per3Ju3AEeS1kvzSLZNJPQ">
+        <eAnnotations xmi:id="_Per3J-3AEeS1kvzSLZNJPQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+          <references xmi:type="ecore:EPackage" href="pathmap://ARCTIS_PROFILES/arctis.profile.uml#_WFTqUXjGEdyxtoUMycQn9Q"/>
+        </eAnnotations>
+        <appliedProfile href="pathmap://ARCTIS_PROFILES/arctis.profile.uml#_rE77YK4iEduZSuTiwKs5Lw"/>
+      </profileApplication>
+    </packagedElement>
+    <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_Per3KO3AEeS1kvzSLZNJPQ" name="java.lang.String"/>
+    <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_Per3Ke3AEeS1kvzSLZNJPQ" name="snes.database.DBResponse"/>
+    <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_Per3Ku3AEeS1kvzSLZNJPQ" name="snes.control.Message"/>
+    <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_Per3K-3AEeS1kvzSLZNJPQ" name="DBParams"/>
+    <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_Per3LO3AEeS1kvzSLZNJPQ" name="DBResponse"/>
+    <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_Per3Le3AEeS1kvzSLZNJPQ" name="snes.databasenew.DBParams"/>
+    <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_Per3Lu3AEeS1kvzSLZNJPQ" name="snes.databasenew.DBResponse"/>
+    <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_PnM5gO3AEeS1kvzSLZNJPQ" name="Message"/>
+    <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_TThaQO3AEeS1kvzSLZNJPQ" name="snes.v1.control.Message"/>
+    <profileApplication xmi:id="_Per3L-3AEeS1kvzSLZNJPQ">
+      <eAnnotations xmi:id="_Per3MO3AEeS1kvzSLZNJPQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="pathmap://ARCTIS_PROFILES/arctis.profile.uml#_WFTqUXjGEdyxtoUMycQn9Q"/>
+      </eAnnotations>
+      <appliedProfile href="pathmap://ARCTIS_PROFILES/arctis.profile.uml#_rE77YK4iEduZSuTiwKs5Lw"/>
+    </profileApplication>
+    <profileApplication xmi:id="_Per3Me3AEeS1kvzSLZNJPQ">
+      <eAnnotations xmi:id="_Per3Mu3AEeS1kvzSLZNJPQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="pathmap://RAMSES_GRAPHIC_PROFILES/no.ntnu.item.ramses.graphicprofile.uml#_geG1wIuAEdytfOWtpACIqw"/>
+      </eAnnotations>
+      <appliedProfile href="pathmap://RAMSES_GRAPHIC_PROFILES/no.ntnu.item.ramses.graphicprofile.uml#_UEANMUVlEduH9aQE_pc66w"/>
+    </profileApplication>
+  </uml:Package>
+  <graphics:Shape xmi:id="_Per3M-3AEeS1kvzSLZNJPQ" x="0" y="18" width="1135" height="55" base_Element="_Per2se3AEeS1kvzSLZNJPQ"/>
+  <graphics:Shape xmi:id="_Per3NO3AEeS1kvzSLZNJPQ" x="0" y="72" width="1135" height="559" base_Element="_Per2ze3AEeS1kvzSLZNJPQ"/>
+  <arctis:esm xmi:id="_Per3Ne3AEeS1kvzSLZNJPQ" base_StateMachine="_Per2su3AEeS1kvzSLZNJPQ"/>
+  <graphics:Shape xmi:id="_Per3Nu3AEeS1kvzSLZNJPQ" x="18" y="144" base_Element="_Per25-3AEeS1kvzSLZNJPQ" orientation="west"/>
+  <graphics:Shape xmi:id="_Per3N-3AEeS1kvzSLZNJPQ" x="216" y="126" width="145" height="55" base_Element="_Per26O3AEeS1kvzSLZNJPQ" orientation="east"/>
+  <graphics:Shape xmi:id="_Per3OO3AEeS1kvzSLZNJPQ" x="423" y="135" width="37" height="37" base_Element="_Per26-3AEeS1kvzSLZNJPQ" orientation="east"/>
+  <graphics:Shape xmi:id="_Per3Oe3AEeS1kvzSLZNJPQ" x="360" y="270" width="163" height="55" base_Element="_Per27O3AEeS1kvzSLZNJPQ" orientation="east"/>
+  <graphics:Shape xmi:id="_Per3Ou3AEeS1kvzSLZNJPQ" x="504" y="126" width="163" height="55" base_Element="_Per27u3AEeS1kvzSLZNJPQ"/>
+  <graphics:Shape xmi:id="_Per3O-3AEeS1kvzSLZNJPQ" x="566" y="279" width="37" height="37" base_Element="_Per28O3AEeS1kvzSLZNJPQ"/>
+  <graphics:Shape xmi:id="_Per3PO3AEeS1kvzSLZNJPQ" x="423" y="81" base_Element="_Per28e3AEeS1kvzSLZNJPQ"/>
+  <graphics:Shape xmi:id="_Per3Pe3AEeS1kvzSLZNJPQ" x="576" y="414" base_Element="_Per28u3AEeS1kvzSLZNJPQ"/>
+  <graphics:Shape xmi:id="_Per3Pu3AEeS1kvzSLZNJPQ" x="990" y="414" base_Element="_Per28-3AEeS1kvzSLZNJPQ" orientation="north"/>
+  <graphics:Shape xmi:id="_Per3P-3AEeS1kvzSLZNJPQ" x="990" y="522" base_Element="_Per29O3AEeS1kvzSLZNJPQ"/>
+  <arctis:event xmi:id="_Per3QO3AEeS1kvzSLZNJPQ" base_Transition="_Per2tO3AEeS1kvzSLZNJPQ" triggers="_Per25-3AEeS1kvzSLZNJPQ" effects="_Per28u3AEeS1kvzSLZNJPQ"/>
+  <arctis:event xmi:id="_Per3Qe3AEeS1kvzSLZNJPQ" base_Transition="_Per2te3AEeS1kvzSLZNJPQ" triggers="_Per28-3AEeS1kvzSLZNJPQ" effects="_Per29O3AEeS1kvzSLZNJPQ"/>
+  <arctis:location xmi:id="_Per3Qu3AEeS1kvzSLZNJPQ" base_Variable="_Per25u3AEeS1kvzSLZNJPQ" partition="_Per2ze3AEeS1kvzSLZNJPQ"/>
+  <graphics:Shape xmi:id="_Per3Q-3AEeS1kvzSLZNJPQ" x="1008" y="90" base_Element="_Per25u3AEeS1kvzSLZNJPQ"/>
+  <graphics:Shape xmi:id="_Per3RO3AEeS1kvzSLZNJPQ" x="846" y="72" base_Element="_Per29e3AEeS1kvzSLZNJPQ" orientation="north"/>
+  <graphics:Shape xmi:id="_Per3Re3AEeS1kvzSLZNJPQ" x="918" y="450" width="163" height="55" base_Element="_Per29u3AEeS1kvzSLZNJPQ"/>
+  <graphics:Shape xmi:id="_Per3Ru3AEeS1kvzSLZNJPQ" x="792" y="162" width="127" height="55" base_Element="_Per29-3AEeS1kvzSLZNJPQ"/>
+  <graphics:Shape xmi:id="_Per3R-3AEeS1kvzSLZNJPQ" x="837" y="369" width="37" height="37" base_Element="_Per2-O3AEeS1kvzSLZNJPQ" orientation="east"/>
+  <graphics:Shape xmi:id="_Per3SO3AEeS1kvzSLZNJPQ" x="666" y="360" width="163" height="55" base_Element="_Per2-e3AEeS1kvzSLZNJPQ" orientation="west"/>
+  <arctis:esm xmi:id="_Per3Se3AEeS1kvzSLZNJPQ" base_StateMachine="_Per3D-3AEeS1kvzSLZNJPQ"/>
+  <arctis:event xmi:id="_Per3Su3AEeS1kvzSLZNJPQ" base_Transition="_Per3Ee3AEeS1kvzSLZNJPQ" triggers="_Per3Iu3AEeS1kvzSLZNJPQ"/>
+  <arctis:event xmi:id="_Per3S-3AEeS1kvzSLZNJPQ" base_Transition="_Per3Eu3AEeS1kvzSLZNJPQ" effects="_Per3I-3AEeS1kvzSLZNJPQ"/>
+  <arctis:event xmi:id="_Per3TO3AEeS1kvzSLZNJPQ" base_Transition="_Per3E-3AEeS1kvzSLZNJPQ" triggers="_Per3JO3AEeS1kvzSLZNJPQ" effects="_Per3Je3AEeS1kvzSLZNJPQ"/>
+  <arctis:event xmi:id="_Per3Te3AEeS1kvzSLZNJPQ" base_Transition="_Per3FO3AEeS1kvzSLZNJPQ" effects="_Per3I-3AEeS1kvzSLZNJPQ _Per3JO3AEeS1kvzSLZNJPQ _Per3Je3AEeS1kvzSLZNJPQ"/>
+  <arctis:event xmi:id="_Per3Tu3AEeS1kvzSLZNJPQ" base_Transition="_Per3Fe3AEeS1kvzSLZNJPQ"/>
+  <arctis:event xmi:id="_Per3T-3AEeS1kvzSLZNJPQ" base_Transition="_Per3Fu3AEeS1kvzSLZNJPQ" triggers="_Per3JO3AEeS1kvzSLZNJPQ" effects="_Per3Je3AEeS1kvzSLZNJPQ"/>
+  <graphics:Shape xmi:id="_Per3UO3AEeS1kvzSLZNJPQ" x="1" y="36" base_Element="_Per3AO3AEeS1kvzSLZNJPQ" orientation="south"/>
+  <graphics:Shape xmi:id="_Per3Ue3AEeS1kvzSLZNJPQ" x="2" y="85" base_Element="_Per2_e3AEeS1kvzSLZNJPQ" orientation="west"/>
+  <graphics:Shape xmi:id="_Per3Uu3AEeS1kvzSLZNJPQ" x="0" y="106" base_Element="_Per3Ae3AEeS1kvzSLZNJPQ" orientation="west"/>
+  <graphics:Shape xmi:id="_Per3U-3AEeS1kvzSLZNJPQ" x="0" y="47" base_Element="_Per2_O3AEeS1kvzSLZNJPQ" orientation="west"/>
+  <graphics:Shape xmi:id="_Per3VO3AEeS1kvzSLZNJPQ" x="936" y="126" width="145" height="217" base_Element="_Per2--3AEeS1kvzSLZNJPQ"/>
+  <graphics:Shape xmi:id="_Per3Ve3AEeS1kvzSLZNJPQ" x="900" y="360" width="127" height="55" base_Element="_Per3Au3AEeS1kvzSLZNJPQ" orientation="west"/>
+  <graphics:Shape xmi:id="_Per3Vu3AEeS1kvzSLZNJPQ" aux1="-4 -90 91 0 " base_Element="_Per23e3AEeS1kvzSLZNJPQ"/>
+  <arctis:event xmi:id="_Per3V-3AEeS1kvzSLZNJPQ" base_Transition="_Per2tu3AEeS1kvzSLZNJPQ" triggers="_Per29e3AEeS1kvzSLZNJPQ"/>
+  <arctis:event xmi:id="_Per3WO3AEeS1kvzSLZNJPQ" base_Transition="_Per2t-3AEeS1kvzSLZNJPQ" triggers="_Per25-3AEeS1kvzSLZNJPQ"/>
+  <arctis:event xmi:id="_Per3We3AEeS1kvzSLZNJPQ" base_Transition="_Per2uO3AEeS1kvzSLZNJPQ" effects="_Per28u3AEeS1kvzSLZNJPQ"/>
+  <graphics:Shape xmi:id="_Per3Wu3AEeS1kvzSLZNJPQ" aux1="0 -162 -93 0 " base_Element="_Per24u3AEeS1kvzSLZNJPQ"/>
+  <graphics:Shape xmi:id="_Per3W-3AEeS1kvzSLZNJPQ" x="809" y="396" base_Element="_Per24e3AEeS1kvzSLZNJPQ"/>
+  <graphics:Shape xmi:id="_Per3XO3AEeS1kvzSLZNJPQ" x="864" y="234" base_Element="_Per24-3AEeS1kvzSLZNJPQ"/>
+  <graphics:Shape xmi:id="_Per3Xe3AEeS1kvzSLZNJPQ" x="449" y="108" base_Element="_Per21-3AEeS1kvzSLZNJPQ"/>
+  <graphics:Shape xmi:id="_Per3Xu3AEeS1kvzSLZNJPQ" x="180" y="576" base_Element="_Per3BO3AEeS1kvzSLZNJPQ"/>
+  <graphics:Shape xmi:id="_Per3X-3AEeS1kvzSLZNJPQ" x="90" y="432" width="199" height="55" base_Element="_Per3Be3AEeS1kvzSLZNJPQ" orientation="north"/>
+  <graphics:Shape xmi:id="_Per3YO3AEeS1kvzSLZNJPQ" x="180" y="378" base_Element="_Per3CO3AEeS1kvzSLZNJPQ" orientation="north"/>
+  <arctis:event xmi:id="_Per3Ye3AEeS1kvzSLZNJPQ" base_Transition="_Per2ue3AEeS1kvzSLZNJPQ" triggers="_Per3BO3AEeS1kvzSLZNJPQ" effects="_Per3CO3AEeS1kvzSLZNJPQ"/>
+</xmi:XMI>
