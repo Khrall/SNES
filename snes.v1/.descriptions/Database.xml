@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<block
+    name="Database" 
+    uuid="_CU1rke3AEeS1kvzSLZNJPQ" 
+    status="under construction" 
+    type="block" 
+    >
+    <required>
+        <library path="lib/mysql.jar"/>
+    </required>
+</block>
