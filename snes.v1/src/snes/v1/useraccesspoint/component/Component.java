@@ -3,7 +3,6 @@ package snes.v1.useraccesspoint.component;
 import java.util.Scanner;
 
 import com.bitreactive.library.mqtt.MQTTConfigParam;
-import com.bitreactive.library.mqtt.MQTTMessage;
 import com.bitreactive.library.mqtt.robustmqtt.RobustMQTT.Parameters;
 
 import org.json.JSONArray;
