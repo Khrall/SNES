@@ -99,17 +99,17 @@
             <subvertex xmi:type="uml:FinalState" xmi:id="_xuuO9OzwEeSVhd3aNhg8oA" name="&lt;final>"/>
           </region>
         </ownedBehavior>
-        <ownedParameter xmi:id="_2K944O2BEeSVhd3aNhg8oA" name="init"/>
-        <ownedParameter xmi:id="_2K-f8O2BEeSVhd3aNhg8oA" name="json" type="_WB_jJukUEeSAfNRdprKk9Q" isStream="true"/>
-        <ownedParameter xmi:id="_2K-f8e2BEeSVhd3aNhg8oA" name="newRequest" type="_WB_jJukUEeSAfNRdprKk9Q" direction="out" isStream="true"/>
-        <ownedParameter xmi:id="_2K-f8u2BEeSVhd3aNhg8oA" name="stop"/>
-        <ownedParameter xmi:id="_2K-f8-2BEeSVhd3aNhg8oA" name="stopped" direction="out"/>
+        <ownedParameter xmi:id="_bSLQgO2MEeSVhd3aNhg8oA" name="init"/>
+        <ownedParameter xmi:id="_bSLQge2MEeSVhd3aNhg8oA" name="json" type="_WB_jJukUEeSAfNRdprKk9Q" isStream="true"/>
+        <ownedParameter xmi:id="_bSLQgu2MEeSVhd3aNhg8oA" name="newRequest" type="_WB_jJukUEeSAfNRdprKk9Q" direction="out" isStream="true"/>
+        <ownedParameter xmi:id="_bSLQg-2MEeSVhd3aNhg8oA" name="stop"/>
+        <ownedParameter xmi:id="_bSLQhO2MEeSVhd3aNhg8oA" name="stopped" direction="out"/>
         <group xmi:type="uml:ActivityPartition" xmi:id="_xutA0uzwEeSVhd3aNhg8oA" name="main" node="_xutA0-zwEeSVhd3aNhg8oA _xutn4OzwEeSVhd3aNhg8oA _xutn4uzwEeSVhd3aNhg8oA _xutn5OzwEeSVhd3aNhg8oA _xutn5uzwEeSVhd3aNhg8oA"/>
-        <node xmi:type="uml:ActivityParameterNode" xmi:id="_xutA0-zwEeSVhd3aNhg8oA" name="init" inPartition="_xutA0uzwEeSVhd3aNhg8oA" parameter="_2K944O2BEeSVhd3aNhg8oA"/>
-        <node xmi:type="uml:ActivityParameterNode" xmi:id="_xutn4OzwEeSVhd3aNhg8oA" name="json" inPartition="_xutA0uzwEeSVhd3aNhg8oA" type="_WB_jJukUEeSAfNRdprKk9Q" parameter="_2K-f8O2BEeSVhd3aNhg8oA"/>
-        <node xmi:type="uml:ActivityParameterNode" xmi:id="_xutn4uzwEeSVhd3aNhg8oA" name="newRequest" inPartition="_xutA0uzwEeSVhd3aNhg8oA" type="_WB_jJukUEeSAfNRdprKk9Q" parameter="_2K-f8e2BEeSVhd3aNhg8oA"/>
-        <node xmi:type="uml:ActivityParameterNode" xmi:id="_xutn5OzwEeSVhd3aNhg8oA" name="stop" inPartition="_xutA0uzwEeSVhd3aNhg8oA" parameter="_2K-f8u2BEeSVhd3aNhg8oA"/>
-        <node xmi:type="uml:ActivityParameterNode" xmi:id="_xutn5uzwEeSVhd3aNhg8oA" name="stopped" inPartition="_xutA0uzwEeSVhd3aNhg8oA" parameter="_2K-f8-2BEeSVhd3aNhg8oA"/>
+        <node xmi:type="uml:ActivityParameterNode" xmi:id="_xutA0-zwEeSVhd3aNhg8oA" name="init" inPartition="_xutA0uzwEeSVhd3aNhg8oA" parameter="_bSLQgO2MEeSVhd3aNhg8oA"/>
+        <node xmi:type="uml:ActivityParameterNode" xmi:id="_xutn4OzwEeSVhd3aNhg8oA" name="json" inPartition="_xutA0uzwEeSVhd3aNhg8oA" type="_WB_jJukUEeSAfNRdprKk9Q" parameter="_bSLQge2MEeSVhd3aNhg8oA"/>
+        <node xmi:type="uml:ActivityParameterNode" xmi:id="_xutn4uzwEeSVhd3aNhg8oA" name="newRequest" inPartition="_xutA0uzwEeSVhd3aNhg8oA" type="_WB_jJukUEeSAfNRdprKk9Q" parameter="_bSLQgu2MEeSVhd3aNhg8oA"/>
+        <node xmi:type="uml:ActivityParameterNode" xmi:id="_xutn5OzwEeSVhd3aNhg8oA" name="stop" inPartition="_xutA0uzwEeSVhd3aNhg8oA" parameter="_bSLQg-2MEeSVhd3aNhg8oA"/>
+        <node xmi:type="uml:ActivityParameterNode" xmi:id="_xutn5uzwEeSVhd3aNhg8oA" name="stopped" inPartition="_xutA0uzwEeSVhd3aNhg8oA" parameter="_bSLQhO2MEeSVhd3aNhg8oA"/>
       </packagedElement>
       <profileApplication xmi:id="_xutn6ezwEeSVhd3aNhg8oA">
         <eAnnotations xmi:id="_xutn6uzwEeSVhd3aNhg8oA" source="http://www.eclipse.org/uml2/2.0.0/UML">

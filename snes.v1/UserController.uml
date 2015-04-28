@@ -33,7 +33,7 @@
         <guard xmi:type="uml:LiteralString" xmi:id="_RB-wIOzpEeSVhd3aNhg8oA" name="broadcast" value="broadcast"/>
       </edge>
       <edge xmi:type="uml:ObjectFlow" xmi:id="_XppnsOzpEeSVhd3aNhg8oA" name="e5" inPartition="_W1n8AOzkEeSVhd3aNhg8oA" target="_IeAj8OzpEeSVhd3aNhg8oA" source="_8mfjYOzoEeSVhd3aNhg8oA">
-        <guard xmi:type="uml:LiteralString" xmi:id="_OtPmAOzsEeSVhd3aNhg8oA" name="selected" value="selected"/>
+        <guard xmi:type="uml:LiteralString" xmi:id="_ZOik0O2MEeSVhd3aNhg8oA" name="response" value="response"/>
       </edge>
       <edge xmi:type="uml:ObjectFlow" xmi:id="_AUS1YOzqEeSVhd3aNhg8oA" name="e3" inPartition="_W1n8AOzkEeSVhd3aNhg8oA" target="_7I3SUOzpEeSVhd3aNhg8oA" source="_e-sqAOzmEeSVhd3aNhg8oA"/>
       <edge xmi:type="uml:ControlFlow" xmi:id="_5yTdIOzrEeSVhd3aNhg8oA" name="e9" inPartition="_W1n8AOzkEeSVhd3aNhg8oA" target="_u-0scOzrEeSVhd3aNhg8oA" source="_IeAj8OzpEeSVhd3aNhg8oA"/>
@@ -101,7 +101,6 @@
   <graphics:Shape xmi:id="_u_Cu4OzrEeSVhd3aNhg8oA" x="450" y="378" width="127" height="55" base_Element="_u-0scOzrEeSVhd3aNhg8oA"/>
   <graphics:Shape xmi:id="_27m80OzrEeSVhd3aNhg8oA" x="306" y="540" base_Element="_27ckwOzrEeSVhd3aNhg8oA"/>
   <graphics:Shape xmi:id="_4fXOkOzrEeSVhd3aNhg8oA" x="297" y="495" width="37" height="37" base_Element="_4fRH8OzrEeSVhd3aNhg8oA"/>
-  <graphics:Shape xmi:id="_PMXK8OzsEeSVhd3aNhg8oA" x="450" y="288" base_Element="_OtPmAOzsEeSVhd3aNhg8oA"/>
   <graphics:Shape xmi:id="_uXbqYOztEeSVhd3aNhg8oA" x="711" y="243" base_Element="_uXXY8OztEeSVhd3aNhg8oA"/>
   <graphics:Shape xmi:id="_yFBWcOztEeSVhd3aNhg8oA" x="712" y="408" base_Element="_yE1JMOztEeSVhd3aNhg8oA"/>
   <graphics:Shape xmi:id="_z1RzIOztEeSVhd3aNhg8oA" x="712" y="457" base_Element="_z1DJoOztEeSVhd3aNhg8oA"/>
@@ -115,4 +114,5 @@
   <graphics:Shape xmi:id="_HIK6gO16EeSVhd3aNhg8oA" aux1="-72 0 0 -72 " base_Element="_XppnsOzpEeSVhd3aNhg8oA"/>
   <graphics:Shape xmi:id="_H0ZHUO16EeSVhd3aNhg8oA" aux1="0 72 -72 0 " base_Element="_WrgkcOzpEeSVhd3aNhg8oA"/>
   <graphics:Shape xmi:id="_I6KckO16EeSVhd3aNhg8oA" x="648" y="234" base_Element="_uXetsOztEeSVhd3aNhg8oA"/>
+  <graphics:Shape xmi:id="_Zp0yoO2MEeSVhd3aNhg8oA" x="432" y="270" base_Element="_ZOik0O2MEeSVhd3aNhg8oA"/>
 </xmi:XMI>
