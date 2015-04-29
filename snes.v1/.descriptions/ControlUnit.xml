@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<block
+    name="ControlUnit" 
+    uuid="_347tY-2_EeS1kvzSLZNJPQ" 
+    status="under construction" 
+    type="system" 
+    >
+    <required>
+        <block name="b0" uuid="_RmC5ge14EeS1kvzSLZNJPQ"/>
+        <block name="b1" uuid="_inMvkO2HEeS1kvzSLZNJPQ"/>
+        <block name="b2" uuid="_mdDgcO1_EeS1kvzSLZNJPQ"/>
+    </required>
+</block>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<block
+    name="MQTT" 
+    uuid="_7bLsIe2_EeS1kvzSLZNJPQ" 
+    status="under construction" 
+    type="block" 
+    >
+    <required>
+        <block name="b0" uuid="_CDPgcD5UEeSLNMcFh65MeQ"/>
+        <block name="b1" uuid="_CDPgcD5UEeSLNMcFh65MeQ"/>
+    </required>
+</block>
