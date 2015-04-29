@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xmi:XMI xmi:version="20110701" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:arctis="http:///schemas/arctis/_WFTqUHjGEdyxtoUMycQn9Q/10" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:graphics="http:///schemas/graphics/_gd9EwIuAEdytfOWtpACIqw/6" xmlns:uml="http://www.eclipse.org/uml2/4.0.0/UML" xsi:schemaLocation="http:///schemas/arctis/_WFTqUHjGEdyxtoUMycQn9Q/10 pathmap://ARCTIS_PROFILES/arctis.profile.uml#_WFTqUXjGEdyxtoUMycQn9Q http:///schemas/graphics/_gd9EwIuAEdytfOWtpACIqw/6 pathmap://RAMSES_GRAPHIC_PROFILES/no.ntnu.item.ramses.graphicprofile.uml#_geG1wIuAEdytfOWtpACIqw">
+<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:arctis="http:///schemas/arctis/_WFTqUHjGEdyxtoUMycQn9Q/10" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:graphics="http:///schemas/graphics/_gd9EwIuAEdytfOWtpACIqw/6" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http:///schemas/arctis/_WFTqUHjGEdyxtoUMycQn9Q/10 pathmap://ARCTIS_PROFILES/arctis.profile.uml#_WFTqUXjGEdyxtoUMycQn9Q http:///schemas/graphics/_gd9EwIuAEdytfOWtpACIqw/6 pathmap://RAMSES_GRAPHIC_PROFILES/no.ntnu.item.ramses.graphicprofile.uml#_geG1wIuAEdytfOWtpACIqw">
   <uml:Package xmi:id="_MMEFAOtzEeS6YZvSOJEjKQ" name="snes.v1">
     <packagedElement xmi:type="uml:Collaboration" xmi:id="_MMEFA-tzEeS6YZvSOJEjKQ" name="SensorUnit" classifierBehavior="_MO5WketzEeS6YZvSOJEjKQ" collaborationRole="_MPCggOtzEeS6YZvSOJEjKQ">
       <ownedAttribute xmi:id="_MPCggOtzEeS6YZvSOJEjKQ" name="component"/>
@@ -231,7 +231,7 @@
   <arctis:event xmi:id="_8z_hwezFEeSVhd3aNhg8oA" base_Transition="_8z_hwOzFEeSVhd3aNhg8oA" triggers="_8yqFAezFEeSVhd3aNhg8oA" effects="_8yqFA-zFEeSVhd3aNhg8oA"/>
   <arctis:event xmi:id="_8z_hw-zFEeSVhd3aNhg8oA" base_Transition="_8z_hwuzFEeSVhd3aNhg8oA" triggers="_8yqFAezFEeSVhd3aNhg8oA" effects="_8yqFA-zFEeSVhd3aNhg8oA"/>
   <graphics:Shape xmi:id="_80G2gOzFEeSVhd3aNhg8oA" x="-1" y="45" base_Element="_80FoYOzFEeSVhd3aNhg8oA" orientation="west"/>
-  <graphics:Shape xmi:id="_80MWEOzFEeSVhd3aNhg8oA" x="1" y="36" base_Element="_80Kg4OzFEeSVhd3aNhg8oA" orientation="east"/>
+  <graphics:Shape xmi:id="_80MWEOzFEeSVhd3aNhg8oA" x="141" y="51" base_Element="_80Kg4OzFEeSVhd3aNhg8oA" orientation="east"/>
   <graphics:Shape xmi:id="_80ROkOzFEeSVhd3aNhg8oA" x="1" y="72" base_Element="_80PZYOzFEeSVhd3aNhg8oA" orientation="west"/>
   <graphics:Shape xmi:id="_80eC4OzFEeSVhd3aNhg8oA" x="1" y="72" base_Element="_80a_kOzFEeSVhd3aNhg8oA" orientation="east"/>
   <graphics:Shape xmi:id="_80iUUOzFEeSVhd3aNhg8oA" x="18" y="18" base_Element="_80VgAOzFEeSVhd3aNhg8oA" orientation="south"/>
@@ -249,9 +249,9 @@
   <graphics:Shape xmi:id="_UcgZQOzIEeSVhd3aNhg8oA" x="486" y="414" width="127" height="19" base_Element="_UcE7cOzIEeSVhd3aNhg8oA" orientation="north"/>
   <graphics:Shape xmi:id="_WdxGYOzIEeSVhd3aNhg8oA" x="531" y="495" base_Element="_WdQwEOzIEeSVhd3aNhg8oA"/>
   <graphics:Shape xmi:id="_Z-rBUOzIEeSVhd3aNhg8oA" aux1="0 39 -378 -72  342 39 -36 -72 " base_Element="_XHYEEOzIEeSVhd3aNhg8oA"/>
-  <graphics:Shape xmi:id="_bwXocOzIEeSVhd3aNhg8oA" aux1="21 0 684 -162  21 90 684 -72  -645 90 18 -72 " base_Element="_X5oncOzIEeSVhd3aNhg8oA"/>
+  <graphics:Shape xmi:id="_bwXocOzIEeSVhd3aNhg8oA" aux1="21 0 684 -162  21 0 720 -162  21 90 720 -72  -645 90 18 -72 " base_Element="_X5oncOzIEeSVhd3aNhg8oA"/>
   <graphics:Shape xmi:id="_I0XBsOzZEeSVhd3aNhg8oA" x="47" y="2" base_Element="_IzXjMOzZEeSVhd3aNhg8oA" orientation="north"/>
-  <graphics:Shape xmi:id="_I0XowOzZEeSVhd3aNhg8oA" x="-4" y="59" base_Element="_IzgtIOzZEeSVhd3aNhg8oA" orientation="west"/>
+  <graphics:Shape xmi:id="_I0XowOzZEeSVhd3aNhg8oA" x="0" y="101" base_Element="_IzgtIOzZEeSVhd3aNhg8oA" orientation="west"/>
   <graphics:Shape xmi:id="_I0XowezZEeSVhd3aNhg8oA" x="90" y="90" base_Element="_Izoo8OzZEeSVhd3aNhg8oA" orientation="south"/>
   <graphics:Shape xmi:id="_P8PDUOzZEeSVhd3aNhg8oA" x="108" y="90" width="163" height="55" base_Element="_P7xJQOzZEeSVhd3aNhg8oA"/>
   <arctis:event xmi:id="_n4cIUezaEeSVhd3aNhg8oA" base_Transition="_n4cIUOzaEeSVhd3aNhg8oA" triggers="_IyG-8ezZEeSVhd3aNhg8oA" effects="_siZTJ-tzEeS6YZvSOJEjKQ"/>
@@ -266,4 +266,5 @@
   <arctis:event xmi:id="_JLN6IOznEeSsXoo37xgNaA" base_Transition="_JGWoQeznEeSsXoo37xgNaA" triggers="_IyG-8ezZEeSVhd3aNhg8oA" effects="_JGQhpeznEeSsXoo37xgNaA"/>
   <arctis:event xmi:id="_JLUAwuznEeSsXoo37xgNaA" base_Transition="_JLUAweznEeSsXoo37xgNaA" triggers="_IyG-8ezZEeSVhd3aNhg8oA"/>
   <arctis:event xmi:id="_JLUAxOznEeSsXoo37xgNaA" base_Transition="_JLUAw-znEeSsXoo37xgNaA" effects="_JGQhpeznEeSsXoo37xgNaA"/>
+  <graphics:Shape xmi:id="_bo5ucO2MEeSYW_yYRqUrug" x="0" y="65" base_Element="_JLaHYOznEeSsXoo37xgNaA" orientation="west"/>
 </xmi:XMI>
