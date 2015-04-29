@@ -1,9 +1,10 @@
 package snes.v1.mqtt;
 
-import snes.control.Message;
+import snes.v1.control.Message;
 import com.bitreactive.library.mqtt.MQTTConfigParam;
 import com.bitreactive.library.mqtt.MQTTMessage;
 import com.bitreactive.library.mqtt.robustmqtt.RobustMQTT.Parameters;
+
 import no.ntnu.item.arctis.runtime.Block;
 
 public class MQTT extends Block {

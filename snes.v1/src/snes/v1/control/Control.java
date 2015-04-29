@@ -1,13 +1,14 @@
 package snes.v1.control;
 
 import java.util.ArrayList;
+
 import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
-import snes.databasenew.DBParams;
-import snes.databasenew.DBResponse;
-import snes.databasenew.RoomList;
-import com.bitreactive.library.mqtt.MQTTMessage;
+import snes.v1.database.DBParams;
+import snes.v1.database.DBResponse;
+import snes.v1.database.RoomList;
+
 import no.ntnu.item.arctis.runtime.Block;
 
 public class Control extends Block {

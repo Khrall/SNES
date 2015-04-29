@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xmi:XMI xmi:version="20110701" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:arctis="http:///schemas/arctis/_WFTqUHjGEdyxtoUMycQn9Q/10" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:graphics="http:///schemas/graphics/_gd9EwIuAEdytfOWtpACIqw/6" xmlns:uml="http://www.eclipse.org/uml2/4.0.0/UML" xsi:schemaLocation="http:///schemas/arctis/_WFTqUHjGEdyxtoUMycQn9Q/10 pathmap://ARCTIS_PROFILES/arctis.profile.uml#_WFTqUXjGEdyxtoUMycQn9Q http:///schemas/graphics/_gd9EwIuAEdytfOWtpACIqw/6 pathmap://RAMSES_GRAPHIC_PROFILES/no.ntnu.item.ramses.graphicprofile.uml#_geG1wIuAEdytfOWtpACIqw">
+<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:arctis="http:///schemas/arctis/_WFTqUHjGEdyxtoUMycQn9Q/10" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:graphics="http:///schemas/graphics/_gd9EwIuAEdytfOWtpACIqw/6" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http:///schemas/arctis/_WFTqUHjGEdyxtoUMycQn9Q/10 pathmap://ARCTIS_PROFILES/arctis.profile.uml#_WFTqUXjGEdyxtoUMycQn9Q http:///schemas/graphics/_gd9EwIuAEdytfOWtpACIqw/6 pathmap://RAMSES_GRAPHIC_PROFILES/no.ntnu.item.ramses.graphicprofile.uml#_geG1wIuAEdytfOWtpACIqw">
   <uml:Package xmi:id="_Per2sO3AEeS1kvzSLZNJPQ" name="snes.v1">
     <packagedElement xmi:type="uml:Activity" xmi:id="_Per2se3AEeS1kvzSLZNJPQ" name="Control" classifierBehavior="_Per2su3AEeS1kvzSLZNJPQ" node="_Per25-3AEeS1kvzSLZNJPQ _Per26O3AEeS1kvzSLZNJPQ _Per26-3AEeS1kvzSLZNJPQ _Per27O3AEeS1kvzSLZNJPQ _Per27u3AEeS1kvzSLZNJPQ _Per28O3AEeS1kvzSLZNJPQ _Per28e3AEeS1kvzSLZNJPQ _Per28u3AEeS1kvzSLZNJPQ _Per28-3AEeS1kvzSLZNJPQ _Per29O3AEeS1kvzSLZNJPQ _Per29e3AEeS1kvzSLZNJPQ _Per29u3AEeS1kvzSLZNJPQ _Per29-3AEeS1kvzSLZNJPQ _Per2-O3AEeS1kvzSLZNJPQ _Per2-e3AEeS1kvzSLZNJPQ _Per2--3AEeS1kvzSLZNJPQ _Per3Au3AEeS1kvzSLZNJPQ _Per3BO3AEeS1kvzSLZNJPQ _Per3Be3AEeS1kvzSLZNJPQ _Per3CO3AEeS1kvzSLZNJPQ" group="_Per2ze3AEeS1kvzSLZNJPQ" partition="_Per2ze3AEeS1kvzSLZNJPQ">
       <ownedBehavior xmi:type="uml:StateMachine" xmi:id="_Per2su3AEeS1kvzSLZNJPQ" name="Control">
@@ -25,11 +25,11 @@
       <ownedOperation xmi:id="_Per2xO3AEeS1kvzSLZNJPQ" name="createResponseMessage"/>
       <ownedOperation xmi:id="_Per2xe3AEeS1kvzSLZNJPQ" name="Control"/>
       <ownedParameter xmi:id="_Per2xu3AEeS1kvzSLZNJPQ" name="inputMessageMQTT" type="_TThaQO3AEeS1kvzSLZNJPQ" isStream="true"/>
-      <ownedParameter xmi:id="_Per2x-3AEeS1kvzSLZNJPQ" name="outputDB" type="_-GiZgO5LEeSnRr3a-ivL8A" direction="out" isStream="true"/>
+      <ownedParameter xmi:id="_Per2x-3AEeS1kvzSLZNJPQ" name="outputDB" type="_Per3Le3AEeS1kvzSLZNJPQ" direction="out" isStream="true"/>
       <ownedParameter xmi:id="_Per2yO3AEeS1kvzSLZNJPQ" name="stop"/>
       <ownedParameter xmi:id="_Per2ye3AEeS1kvzSLZNJPQ" name="stopped" direction="out"/>
       <ownedParameter xmi:id="_Per2yu3AEeS1kvzSLZNJPQ" name="init"/>
-      <ownedParameter xmi:id="_Per2y-3AEeS1kvzSLZNJPQ" name="inputDB" type="_-HD98O5LEeSnRr3a-ivL8A" isStream="true"/>
+      <ownedParameter xmi:id="_Per2y-3AEeS1kvzSLZNJPQ" name="inputDB" type="_Per3Lu3AEeS1kvzSLZNJPQ" isStream="true"/>
       <ownedParameter xmi:id="_Per2zO3AEeS1kvzSLZNJPQ" name="outputMessageMQTT" type="_TThaQO3AEeS1kvzSLZNJPQ" direction="out" isStream="true"/>
       <edge xmi:type="uml:ObjectFlow" xmi:id="_Per2zu3AEeS1kvzSLZNJPQ" name="e0" inPartition="_Per2ze3AEeS1kvzSLZNJPQ" target="_Per26e3AEeS1kvzSLZNJPQ" source="_Per25-3AEeS1kvzSLZNJPQ"/>
       <edge xmi:type="uml:ObjectFlow" xmi:id="_Per2z-3AEeS1kvzSLZNJPQ" name="e1" inPartition="_Per2ze3AEeS1kvzSLZNJPQ" target="_Per26-3AEeS1kvzSLZNJPQ" source="_Per26u3AEeS1kvzSLZNJPQ"/>
@@ -76,7 +76,7 @@
       </node>
       <node xmi:type="uml:MergeNode" xmi:id="_Per28O3AEeS1kvzSLZNJPQ" name="m0" incoming="_Per21O3AEeS1kvzSLZNJPQ _Per21e3AEeS1kvzSLZNJPQ _Per23e3AEeS1kvzSLZNJPQ" outgoing="_Per22O3AEeS1kvzSLZNJPQ" inPartition="_Per2ze3AEeS1kvzSLZNJPQ"/>
       <node xmi:type="uml:FlowFinalNode" xmi:id="_Per28e3AEeS1kvzSLZNJPQ" name="z0" incoming="_Per21u3AEeS1kvzSLZNJPQ" inPartition="_Per2ze3AEeS1kvzSLZNJPQ"/>
-      <node xmi:type="uml:ActivityParameterNode" xmi:id="_Per28u3AEeS1kvzSLZNJPQ" name="outputDB" incoming="_Per22O3AEeS1kvzSLZNJPQ" inPartition="_Per2ze3AEeS1kvzSLZNJPQ" type="_-GiZgO5LEeSnRr3a-ivL8A" parameter="_Per2x-3AEeS1kvzSLZNJPQ"/>
+      <node xmi:type="uml:ActivityParameterNode" xmi:id="_Per28u3AEeS1kvzSLZNJPQ" name="outputDB" incoming="_Per22O3AEeS1kvzSLZNJPQ" inPartition="_Per2ze3AEeS1kvzSLZNJPQ" type="_Per3Le3AEeS1kvzSLZNJPQ" parameter="_Per2x-3AEeS1kvzSLZNJPQ"/>
       <node xmi:type="uml:ActivityParameterNode" xmi:id="_Per28-3AEeS1kvzSLZNJPQ" name="stop" outgoing="_Per22e3AEeS1kvzSLZNJPQ" inPartition="_Per2ze3AEeS1kvzSLZNJPQ" parameter="_Per2yO3AEeS1kvzSLZNJPQ"/>
       <node xmi:type="uml:ActivityParameterNode" xmi:id="_Per29O3AEeS1kvzSLZNJPQ" name="stopped" incoming="_Per22u3AEeS1kvzSLZNJPQ" inPartition="_Per2ze3AEeS1kvzSLZNJPQ" parameter="_Per2ye3AEeS1kvzSLZNJPQ"/>
       <node xmi:type="uml:ActivityParameterNode" xmi:id="_Per29e3AEeS1kvzSLZNJPQ" name="init" outgoing="_Per22-3AEeS1kvzSLZNJPQ" inPartition="_Per2ze3AEeS1kvzSLZNJPQ" parameter="_Per2yu3AEeS1kvzSLZNJPQ"/>
@@ -98,7 +98,7 @@
       <node xmi:type="uml:CallOperationAction" xmi:id="_Per3Au3AEeS1kvzSLZNJPQ" name="o6" incoming="_Per23-3AEeS1kvzSLZNJPQ" inPartition="_Per2ze3AEeS1kvzSLZNJPQ" operation="_Per2w-3AEeS1kvzSLZNJPQ">
         <result xmi:id="_Per3A-3AEeS1kvzSLZNJPQ" name="" outgoing="_Per23O3AEeS1kvzSLZNJPQ" inPartition="_Per2ze3AEeS1kvzSLZNJPQ" type="_Per3DO3AEeS1kvzSLZNJPQ"/>
       </node>
-      <node xmi:type="uml:ActivityParameterNode" xmi:id="_Per3BO3AEeS1kvzSLZNJPQ" name="inputDB" outgoing="_Per25O3AEeS1kvzSLZNJPQ" inPartition="_Per2ze3AEeS1kvzSLZNJPQ" type="_-HD98O5LEeSnRr3a-ivL8A" parameter="_Per2y-3AEeS1kvzSLZNJPQ"/>
+      <node xmi:type="uml:ActivityParameterNode" xmi:id="_Per3BO3AEeS1kvzSLZNJPQ" name="inputDB" outgoing="_Per25O3AEeS1kvzSLZNJPQ" inPartition="_Per2ze3AEeS1kvzSLZNJPQ" type="_Per3Lu3AEeS1kvzSLZNJPQ" parameter="_Per2y-3AEeS1kvzSLZNJPQ"/>
       <node xmi:type="uml:CallOperationAction" xmi:id="_Per3Be3AEeS1kvzSLZNJPQ" name="o7" inPartition="_Per2ze3AEeS1kvzSLZNJPQ" operation="_Per2xO3AEeS1kvzSLZNJPQ">
         <argument xmi:id="_Per3Bu3AEeS1kvzSLZNJPQ" name="response" incoming="_Per25O3AEeS1kvzSLZNJPQ" inPartition="_Per2ze3AEeS1kvzSLZNJPQ" type="_-HD98O5LEeSnRr3a-ivL8A"/>
         <result xmi:id="_Per3B-3AEeS1kvzSLZNJPQ" name="" outgoing="_Per25e3AEeS1kvzSLZNJPQ" inPartition="_Per2ze3AEeS1kvzSLZNJPQ" type="_TThaQO3AEeS1kvzSLZNJPQ"/>

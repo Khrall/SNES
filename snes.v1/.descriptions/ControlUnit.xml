@@ -6,8 +6,11 @@
     type="system" 
     >
     <required>
-        <block name="b0" uuid="_RmC5ge14EeS1kvzSLZNJPQ"/>
-        <block name="b1" uuid="_inMvkO2HEeS1kvzSLZNJPQ"/>
-        <block name="b2" uuid="_mdDgcO1_EeS1kvzSLZNJPQ"/>
+        <package name="snes.v1.control"/>
+        <package name="snes.v1.controlunit.component"/>
+        <package name="snes.v1.database"/>
+        <block name="b0" uuid="_7bLsIe2_EeS1kvzSLZNJPQ"/>
+        <block name="b1" uuid="_CU1rke3AEeS1kvzSLZNJPQ"/>
+        <block name="b2" uuid="_Per2se3AEeS1kvzSLZNJPQ"/>
     </required>
 </block>

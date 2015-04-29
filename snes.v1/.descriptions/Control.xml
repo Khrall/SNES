@@ -6,7 +6,9 @@
     type="block" 
     >
     <required>
-        <library path="lib/org.json.jar"/>
+        <library path="libs/json-org.jar"/>
+        <package name="snes.v1.control"/>
+        <package name="snes.v1.database"/>
         <block name="b0" uuid="_vCXJcVYREd-4YqQXCGC3ew"/>
     </required>
 </block>

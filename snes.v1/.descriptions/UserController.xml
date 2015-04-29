@@ -6,6 +6,8 @@
     type="block" 
     >
     <required>
+        <library path="libs/json-org.jar"/>
+        <package name="com.bitreactive.library.mqtt"/>
         <package name="snes.v1.usercontroller"/>
     </required>
 </block>

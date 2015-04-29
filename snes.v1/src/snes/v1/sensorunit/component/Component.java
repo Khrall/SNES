@@ -9,18 +9,6 @@ import com.bitreactive.library.mqtt.robustmqtt.RobustMQTT.Parameters;
 import no.ntnu.item.arctis.runtime.Block;
 
 public class Component extends Block {
-
-	public int setInPin() {
-		System.out.println("Enter pinin: ");
-		Scanner scanner = new Scanner(System.in);
-		return scanner.nextInt();
-	}
-	
-	public int setOutPin() {
-		System.out.println("Enter pinout: ");
-		Scanner scanner = new Scanner(System.in);
-		return scanner.nextInt();
-	}
 	
 	public int[] initController() {
 		int[] params = new int[2];

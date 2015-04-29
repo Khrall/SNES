@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xmi:XMI xmi:version="20110701" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:arctis="http:///schemas/arctis/_WFTqUHjGEdyxtoUMycQn9Q/10" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:graphics="http:///schemas/graphics/_gd9EwIuAEdytfOWtpACIqw/6" xmlns:uml="http://www.eclipse.org/uml2/4.0.0/UML" xsi:schemaLocation="http:///schemas/arctis/_WFTqUHjGEdyxtoUMycQn9Q/10 pathmap://ARCTIS_PROFILES/arctis.profile.uml#_WFTqUXjGEdyxtoUMycQn9Q http:///schemas/graphics/_gd9EwIuAEdytfOWtpACIqw/6 pathmap://RAMSES_GRAPHIC_PROFILES/no.ntnu.item.ramses.graphicprofile.uml#_geG1wIuAEdytfOWtpACIqw">
+<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:arctis="http:///schemas/arctis/_WFTqUHjGEdyxtoUMycQn9Q/10" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:graphics="http:///schemas/graphics/_gd9EwIuAEdytfOWtpACIqw/6" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http:///schemas/arctis/_WFTqUHjGEdyxtoUMycQn9Q/10 pathmap://ARCTIS_PROFILES/arctis.profile.uml#_WFTqUXjGEdyxtoUMycQn9Q http:///schemas/graphics/_gd9EwIuAEdytfOWtpACIqw/6 pathmap://RAMSES_GRAPHIC_PROFILES/no.ntnu.item.ramses.graphicprofile.uml#_geG1wIuAEdytfOWtpACIqw">
   <uml:Package xmi:id="_347tYO2_EeS1kvzSLZNJPQ" name="snes.v1">
     <packagedElement xmi:type="uml:Collaboration" xmi:id="_347tYe2_EeS1kvzSLZNJPQ" name="ControlUnit" classifierBehavior="_347tY-2_EeS1kvzSLZNJPQ" collaborationRole="_347tYu2_EeS1kvzSLZNJPQ">
       <ownedAttribute xmi:id="_347tYu2_EeS1kvzSLZNJPQ" name="component"/>
@@ -67,21 +67,21 @@
             <subvertex xmi:type="uml:FinalState" xmi:id="_ruLiIO5LEeSnRr3a-ivL8A" name="&lt;final>"/>
           </region>
         </ownedBehavior>
-        <ownedParameter xmi:id="_NhDxUO5NEeSnRr3a-ivL8A" name="inputMessageMQTT" type="_rpyKUO5LEeSnRr3a-ivL8A" isStream="true"/>
-        <ownedParameter xmi:id="_NhDxUe5NEeSnRr3a-ivL8A" name="outputDB" type="_uTuoEe5LEeSnRr3a-ivL8A" direction="out" isStream="true"/>
-        <ownedParameter xmi:id="_NhDxUu5NEeSnRr3a-ivL8A" name="stop"/>
-        <ownedParameter xmi:id="_NhDxU-5NEeSnRr3a-ivL8A" name="stopped" direction="out"/>
-        <ownedParameter xmi:id="_NhDxVO5NEeSnRr3a-ivL8A" name="init"/>
-        <ownedParameter xmi:id="_NhDxVe5NEeSnRr3a-ivL8A" name="inputDB" type="_uTvPIO5LEeSnRr3a-ivL8A" isStream="true"/>
-        <ownedParameter xmi:id="_NhDxVu5NEeSnRr3a-ivL8A" name="outputMessageMQTT" type="_rpyKUO5LEeSnRr3a-ivL8A" direction="out" isStream="true"/>
+        <ownedParameter xmi:id="_L-5QcO5MEeSnRr3a-ivL8A" name="inputMessageMQTT" type="_rpyKUO5LEeSnRr3a-ivL8A" isStream="true"/>
+        <ownedParameter xmi:id="_L-5Qce5MEeSnRr3a-ivL8A" name="outputDB" type="_uTuoEe5LEeSnRr3a-ivL8A" direction="out" isStream="true"/>
+        <ownedParameter xmi:id="_L-53gO5MEeSnRr3a-ivL8A" name="stop"/>
+        <ownedParameter xmi:id="_L-53ge5MEeSnRr3a-ivL8A" name="stopped" direction="out"/>
+        <ownedParameter xmi:id="_L-6ekO5MEeSnRr3a-ivL8A" name="init"/>
+        <ownedParameter xmi:id="_L-6eke5MEeSnRr3a-ivL8A" name="inputDB" type="_uTvPIO5LEeSnRr3a-ivL8A" isStream="true"/>
+        <ownedParameter xmi:id="_L-6eku5MEeSnRr3a-ivL8A" name="outputMessageMQTT" type="_rpyKUO5LEeSnRr3a-ivL8A" direction="out" isStream="true"/>
         <group xmi:type="uml:ActivityPartition" xmi:id="_rpw8MO5LEeSnRr3a-ivL8A" name="main" node="_rpyKUe5LEeSnRr3a-ivL8A _rpyxYO5LEeSnRr3a-ivL8A _rpyxYu5LEeSnRr3a-ivL8A _rpzYce5LEeSnRr3a-ivL8A _rpz_gO5LEeSnRr3a-ivL8A _rpz_gu5LEeSnRr3a-ivL8A _rp0mkO5LEeSnRr3a-ivL8A"/>
-        <node xmi:type="uml:ActivityParameterNode" xmi:id="_rpyKUe5LEeSnRr3a-ivL8A" name="inputMessageMQTT" inPartition="_rpw8MO5LEeSnRr3a-ivL8A" type="_rpyKUO5LEeSnRr3a-ivL8A" parameter="_NhDxUO5NEeSnRr3a-ivL8A"/>
-        <node xmi:type="uml:ActivityParameterNode" xmi:id="_rpyxYO5LEeSnRr3a-ivL8A" name="outputDB" inPartition="_rpw8MO5LEeSnRr3a-ivL8A" type="_uTuoEe5LEeSnRr3a-ivL8A" parameter="_NhDxUe5NEeSnRr3a-ivL8A"/>
-        <node xmi:type="uml:ActivityParameterNode" xmi:id="_rpyxYu5LEeSnRr3a-ivL8A" name="stop" inPartition="_rpw8MO5LEeSnRr3a-ivL8A" parameter="_NhDxUu5NEeSnRr3a-ivL8A"/>
-        <node xmi:type="uml:ActivityParameterNode" xmi:id="_rpzYce5LEeSnRr3a-ivL8A" name="stopped" inPartition="_rpw8MO5LEeSnRr3a-ivL8A" parameter="_NhDxU-5NEeSnRr3a-ivL8A"/>
-        <node xmi:type="uml:ActivityParameterNode" xmi:id="_rpz_gO5LEeSnRr3a-ivL8A" name="init" inPartition="_rpw8MO5LEeSnRr3a-ivL8A" parameter="_NhDxVO5NEeSnRr3a-ivL8A"/>
-        <node xmi:type="uml:ActivityParameterNode" xmi:id="_rpz_gu5LEeSnRr3a-ivL8A" name="inputDB" inPartition="_rpw8MO5LEeSnRr3a-ivL8A" type="_uTvPIO5LEeSnRr3a-ivL8A" parameter="_NhDxVe5NEeSnRr3a-ivL8A"/>
-        <node xmi:type="uml:ActivityParameterNode" xmi:id="_rp0mkO5LEeSnRr3a-ivL8A" name="outputMessageMQTT" inPartition="_rpw8MO5LEeSnRr3a-ivL8A" type="_rpyKUO5LEeSnRr3a-ivL8A" parameter="_NhDxVu5NEeSnRr3a-ivL8A"/>
+        <node xmi:type="uml:ActivityParameterNode" xmi:id="_rpyKUe5LEeSnRr3a-ivL8A" name="inputMessageMQTT" inPartition="_rpw8MO5LEeSnRr3a-ivL8A" type="_rpyKUO5LEeSnRr3a-ivL8A" parameter="_L-5QcO5MEeSnRr3a-ivL8A"/>
+        <node xmi:type="uml:ActivityParameterNode" xmi:id="_rpyxYO5LEeSnRr3a-ivL8A" name="outputDB" inPartition="_rpw8MO5LEeSnRr3a-ivL8A" type="_uTuoEe5LEeSnRr3a-ivL8A" parameter="_L-5Qce5MEeSnRr3a-ivL8A"/>
+        <node xmi:type="uml:ActivityParameterNode" xmi:id="_rpyxYu5LEeSnRr3a-ivL8A" name="stop" inPartition="_rpw8MO5LEeSnRr3a-ivL8A" parameter="_L-53gO5MEeSnRr3a-ivL8A"/>
+        <node xmi:type="uml:ActivityParameterNode" xmi:id="_rpzYce5LEeSnRr3a-ivL8A" name="stopped" inPartition="_rpw8MO5LEeSnRr3a-ivL8A" parameter="_L-53ge5MEeSnRr3a-ivL8A"/>
+        <node xmi:type="uml:ActivityParameterNode" xmi:id="_rpz_gO5LEeSnRr3a-ivL8A" name="init" inPartition="_rpw8MO5LEeSnRr3a-ivL8A" parameter="_L-6ekO5MEeSnRr3a-ivL8A"/>
+        <node xmi:type="uml:ActivityParameterNode" xmi:id="_rpz_gu5LEeSnRr3a-ivL8A" name="inputDB" inPartition="_rpw8MO5LEeSnRr3a-ivL8A" type="_uTvPIO5LEeSnRr3a-ivL8A" parameter="_L-6eke5MEeSnRr3a-ivL8A"/>
+        <node xmi:type="uml:ActivityParameterNode" xmi:id="_rp0mkO5LEeSnRr3a-ivL8A" name="outputMessageMQTT" inPartition="_rpw8MO5LEeSnRr3a-ivL8A" type="_rpyKUO5LEeSnRr3a-ivL8A" parameter="_L-6eku5MEeSnRr3a-ivL8A"/>
       </packagedElement>
       <profileApplication xmi:id="_rp1Noe5LEeSnRr3a-ivL8A">
         <eAnnotations xmi:id="_rp3C0O5LEeSnRr3a-ivL8A" source="http://www.eclipse.org/uml2/2.0.0/UML">
@@ -137,15 +137,17 @@
             <subvertex xmi:type="uml:FinalState" xmi:id="_uTxEUO5LEeSnRr3a-ivL8A" name="&lt;final>"/>
           </region>
         </ownedBehavior>
-        <ownedParameter xmi:id="_Onpl8O5NEeSnRr3a-ivL8A" name="inputController" type="_uTuoEe5LEeSnRr3a-ivL8A" isStream="true"/>
-        <ownedParameter xmi:id="_Onpl8e5NEeSnRr3a-ivL8A" name="outputController" type="_uTvPIO5LEeSnRr3a-ivL8A" direction="out" isStream="true"/>
-        <ownedParameter xmi:id="_Onpl8u5NEeSnRr3a-ivL8A" name="stop"/>
-        <ownedParameter xmi:id="_Onpl8-5NEeSnRr3a-ivL8A" name="stopped" direction="out"/>
+        <ownedParameter xmi:id="_uTuoE-5LEeSnRr3a-ivL8A" name="inputController" type="_uTuoEe5LEeSnRr3a-ivL8A" isStream="true"/>
+        <ownedParameter xmi:id="_uTvPIu5LEeSnRr3a-ivL8A" name="outputController" type="_uTvPIO5LEeSnRr3a-ivL8A" direction="out" isStream="true"/>
+        <ownedParameter xmi:id="_uTvPJO5LEeSnRr3a-ivL8A" name="stop"/>
+        <ownedParameter xmi:id="_uTv2Me5LEeSnRr3a-ivL8A" name="stopped" direction="out"/>
+        <ownedParameter xmi:id="_uTyScO5LEeSnRr3a-ivL8A" name="outputController" type="_uTvPIO5LEeSnRr3a-ivL8A" direction="out" isStream="true"/>
+        <ownedParameter xmi:id="_uTzgkO5LEeSnRr3a-ivL8A" name="outputController" type="_uTvPIO5LEeSnRr3a-ivL8A" direction="out" isStream="true"/>
         <group xmi:type="uml:ActivityPartition" xmi:id="_uTuoEO5LEeSnRr3a-ivL8A" name="main" node="_uTuoEu5LEeSnRr3a-ivL8A _uTvPIe5LEeSnRr3a-ivL8A _uTvPI-5LEeSnRr3a-ivL8A _uTv2MO5LEeSnRr3a-ivL8A"/>
-        <node xmi:type="uml:ActivityParameterNode" xmi:id="_uTuoEu5LEeSnRr3a-ivL8A" name="inputController" inPartition="_uTuoEO5LEeSnRr3a-ivL8A" type="_uTuoEe5LEeSnRr3a-ivL8A" parameter="_Onpl8O5NEeSnRr3a-ivL8A"/>
-        <node xmi:type="uml:ActivityParameterNode" xmi:id="_uTvPIe5LEeSnRr3a-ivL8A" name="outputController" inPartition="_uTuoEO5LEeSnRr3a-ivL8A" type="_uTvPIO5LEeSnRr3a-ivL8A" parameter="_Onpl8e5NEeSnRr3a-ivL8A"/>
-        <node xmi:type="uml:ActivityParameterNode" xmi:id="_uTvPI-5LEeSnRr3a-ivL8A" name="stop" inPartition="_uTuoEO5LEeSnRr3a-ivL8A" parameter="_Onpl8u5NEeSnRr3a-ivL8A"/>
-        <node xmi:type="uml:ActivityParameterNode" xmi:id="_uTv2MO5LEeSnRr3a-ivL8A" name="stopped" inPartition="_uTuoEO5LEeSnRr3a-ivL8A" parameter="_Onpl8-5NEeSnRr3a-ivL8A"/>
+        <node xmi:type="uml:ActivityParameterNode" xmi:id="_uTuoEu5LEeSnRr3a-ivL8A" name="inputController" inPartition="_uTuoEO5LEeSnRr3a-ivL8A" type="_uTuoEe5LEeSnRr3a-ivL8A" parameter="_uTuoE-5LEeSnRr3a-ivL8A"/>
+        <node xmi:type="uml:ActivityParameterNode" xmi:id="_uTvPIe5LEeSnRr3a-ivL8A" name="outputController" inPartition="_uTuoEO5LEeSnRr3a-ivL8A" type="_uTvPIO5LEeSnRr3a-ivL8A" parameter="_uTzgkO5LEeSnRr3a-ivL8A"/>
+        <node xmi:type="uml:ActivityParameterNode" xmi:id="_uTvPI-5LEeSnRr3a-ivL8A" name="stop" inPartition="_uTuoEO5LEeSnRr3a-ivL8A" parameter="_uTvPJO5LEeSnRr3a-ivL8A"/>
+        <node xmi:type="uml:ActivityParameterNode" xmi:id="_uTv2MO5LEeSnRr3a-ivL8A" name="stopped" inPartition="_uTuoEO5LEeSnRr3a-ivL8A" parameter="_uTv2Me5LEeSnRr3a-ivL8A"/>
       </packagedElement>
       <profileApplication xmi:id="_uTv2M-5LEeSnRr3a-ivL8A">
         <eAnnotations xmi:id="_uTwdQO5LEeSnRr3a-ivL8A" source="http://www.eclipse.org/uml2/2.0.0/UML">

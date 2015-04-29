@@ -6,6 +6,11 @@
     type="block" 
     >
     <required>
+        <package name="com.bitreactive.library.mqtt"/>
+        <package name="com.bitreactive.library.mqtt.robustmqtt"/>
+        <package name="snes.v1.control"/>
+        <package name="snes.v1.database"/>
+        <package name="snes.v1.mqtt"/>
         <block name="b0" uuid="_CDPgcD5UEeSLNMcFh65MeQ"/>
         <block name="b1" uuid="_CDPgcD5UEeSLNMcFh65MeQ"/>
     </required>

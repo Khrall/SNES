@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xmi:XMI xmi:version="20110701" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:arctis="http:///schemas/arctis/_WFTqUHjGEdyxtoUMycQn9Q/10" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:graphics="http:///schemas/graphics/_gd9EwIuAEdytfOWtpACIqw/6" xmlns:uml="http://www.eclipse.org/uml2/4.0.0/UML" xsi:schemaLocation="http:///schemas/arctis/_WFTqUHjGEdyxtoUMycQn9Q/10 pathmap://ARCTIS_PROFILES/arctis.profile.uml#_WFTqUXjGEdyxtoUMycQn9Q http:///schemas/graphics/_gd9EwIuAEdytfOWtpACIqw/6 pathmap://RAMSES_GRAPHIC_PROFILES/no.ntnu.item.ramses.graphicprofile.uml#_geG1wIuAEdytfOWtpACIqw">
+<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:arctis="http:///schemas/arctis/_WFTqUHjGEdyxtoUMycQn9Q/10" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:graphics="http:///schemas/graphics/_gd9EwIuAEdytfOWtpACIqw/6" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http:///schemas/arctis/_WFTqUHjGEdyxtoUMycQn9Q/10 pathmap://ARCTIS_PROFILES/arctis.profile.uml#_WFTqUXjGEdyxtoUMycQn9Q http:///schemas/graphics/_gd9EwIuAEdytfOWtpACIqw/6 pathmap://RAMSES_GRAPHIC_PROFILES/no.ntnu.item.ramses.graphicprofile.uml#_geG1wIuAEdytfOWtpACIqw">
   <uml:Package xmi:id="_7bLsIO2_EeS1kvzSLZNJPQ" name="snes.v1">
     <packagedElement xmi:type="uml:Activity" xmi:id="_7bLsIe2_EeS1kvzSLZNJPQ" name="MQTT" classifierBehavior="_7bLsIu2_EeS1kvzSLZNJPQ" node="_7bLsRu2_EeS1kvzSLZNJPQ _7bLsTe2_EeS1kvzSLZNJPQ _7bLsVO2_EeS1kvzSLZNJPQ _7bLsV-2_EeS1kvzSLZNJPQ _7bLsWu2_EeS1kvzSLZNJPQ _7bLsW-2_EeS1kvzSLZNJPQ _7bLsXO2_EeS1kvzSLZNJPQ _7bLsXu2_EeS1kvzSLZNJPQ _7bLsYO2_EeS1kvzSLZNJPQ _7bLsYe2_EeS1kvzSLZNJPQ _7bLsYu2_EeS1kvzSLZNJPQ _7bLsY-2_EeS1kvzSLZNJPQ _7bLsZO2_EeS1kvzSLZNJPQ _7bLsZ-2_EeS1kvzSLZNJPQ" group="_7bLsOO2_EeS1kvzSLZNJPQ" partition="_7bLsOO2_EeS1kvzSLZNJPQ">
       <ownedBehavior xmi:type="uml:StateMachine" xmi:id="_7bLsIu2_EeS1kvzSLZNJPQ" name="MQTT">
@@ -22,10 +22,10 @@
       <ownedOperation xmi:id="_7bLsMe2_EeS1kvzSLZNJPQ" name="createSensorMQTTMessage"/>
       <ownedOperation xmi:id="_7bLsMu2_EeS1kvzSLZNJPQ" name="saveMessage"/>
       <ownedParameter xmi:id="_7bLsM-2_EeS1kvzSLZNJPQ" name="init"/>
-      <ownedParameter xmi:id="_7bLsNO2_EeS1kvzSLZNJPQ" name="outputMessage" type="_1xwf4O5LEeSnRr3a-ivL8A" direction="out" isStream="true"/>
+      <ownedParameter xmi:id="_7bLsNO2_EeS1kvzSLZNJPQ" name="outputMessage" type="_7bLsje2_EeS1kvzSLZNJPQ" direction="out" isStream="true"/>
       <ownedParameter xmi:id="_7bLsNe2_EeS1kvzSLZNJPQ" name="stop" isStream="true"/>
       <ownedParameter xmi:id="_7bLsNu2_EeS1kvzSLZNJPQ" name="stopped" direction="out"/>
-      <ownedParameter xmi:id="_7bLsN-2_EeS1kvzSLZNJPQ" name="inputMessage" type="_1xwf4O5LEeSnRr3a-ivL8A" isStream="true"/>
+      <ownedParameter xmi:id="_7bLsN-2_EeS1kvzSLZNJPQ" name="inputMessage" type="_7bLsje2_EeS1kvzSLZNJPQ" isStream="true"/>
       <edge xmi:type="uml:ObjectFlow" xmi:id="_7bLsOe2_EeS1kvzSLZNJPQ" name="e0" inPartition="_7bLsOO2_EeS1kvzSLZNJPQ" target="_7bLsVe2_EeS1kvzSLZNJPQ" source="_7bLsSu2_EeS1kvzSLZNJPQ"/>
       <edge xmi:type="uml:ObjectFlow" xmi:id="_7bLsOu2_EeS1kvzSLZNJPQ" name="e1" inPartition="_7bLsOO2_EeS1kvzSLZNJPQ" target="_7bLsWO2_EeS1kvzSLZNJPQ" source="_7bLsUe2_EeS1kvzSLZNJPQ"/>
       <edge xmi:type="uml:ObjectFlow" xmi:id="_7bLsO-2_EeS1kvzSLZNJPQ" name="e2" inPartition="_7bLsOO2_EeS1kvzSLZNJPQ" target="_7bLsWu2_EeS1kvzSLZNJPQ" source="_7bLsWe2_EeS1kvzSLZNJPQ"/>
@@ -72,10 +72,10 @@
       <node xmi:type="uml:CallOperationAction" xmi:id="_7bLsXu2_EeS1kvzSLZNJPQ" name="o3" incoming="_7bLsQ-2_EeS1kvzSLZNJPQ" inPartition="_7bLsOO2_EeS1kvzSLZNJPQ" operation="_7bLsL-2_EeS1kvzSLZNJPQ">
         <result xmi:id="_7bLsX-2_EeS1kvzSLZNJPQ" name="" outgoing="_7bLsPu2_EeS1kvzSLZNJPQ" inPartition="_7bLsOO2_EeS1kvzSLZNJPQ" type="_7bLsiO2_EeS1kvzSLZNJPQ"/>
       </node>
-      <node xmi:type="uml:ActivityParameterNode" xmi:id="_7bLsYO2_EeS1kvzSLZNJPQ" name="outputMessage" incoming="_7bLsP-2_EeS1kvzSLZNJPQ" inPartition="_7bLsOO2_EeS1kvzSLZNJPQ" type="_1xwf4O5LEeSnRr3a-ivL8A" parameter="_7bLsNO2_EeS1kvzSLZNJPQ"/>
+      <node xmi:type="uml:ActivityParameterNode" xmi:id="_7bLsYO2_EeS1kvzSLZNJPQ" name="outputMessage" incoming="_7bLsP-2_EeS1kvzSLZNJPQ" inPartition="_7bLsOO2_EeS1kvzSLZNJPQ" type="_7bLsje2_EeS1kvzSLZNJPQ" parameter="_7bLsNO2_EeS1kvzSLZNJPQ"/>
       <node xmi:type="uml:ActivityParameterNode" xmi:id="_7bLsYe2_EeS1kvzSLZNJPQ" name="stop" outgoing="_7bLsQO2_EeS1kvzSLZNJPQ" inPartition="_7bLsOO2_EeS1kvzSLZNJPQ" parameter="_7bLsNe2_EeS1kvzSLZNJPQ"/>
       <node xmi:type="uml:ActivityParameterNode" xmi:id="_7bLsYu2_EeS1kvzSLZNJPQ" name="stopped" incoming="_7bLsQO2_EeS1kvzSLZNJPQ" inPartition="_7bLsOO2_EeS1kvzSLZNJPQ" parameter="_7bLsNu2_EeS1kvzSLZNJPQ"/>
-      <node xmi:type="uml:ActivityParameterNode" xmi:id="_7bLsY-2_EeS1kvzSLZNJPQ" name="inputMessage" outgoing="_7bLsRe2_EeS1kvzSLZNJPQ" inPartition="_7bLsOO2_EeS1kvzSLZNJPQ" type="_1xwf4O5LEeSnRr3a-ivL8A" parameter="_7bLsN-2_EeS1kvzSLZNJPQ"/>
+      <node xmi:type="uml:ActivityParameterNode" xmi:id="_7bLsY-2_EeS1kvzSLZNJPQ" name="inputMessage" outgoing="_7bLsRe2_EeS1kvzSLZNJPQ" inPartition="_7bLsOO2_EeS1kvzSLZNJPQ" type="_7bLsje2_EeS1kvzSLZNJPQ" parameter="_7bLsN-2_EeS1kvzSLZNJPQ"/>
       <node xmi:type="uml:CallOperationAction" xmi:id="_7bLsZO2_EeS1kvzSLZNJPQ" name="o4" inPartition="_7bLsOO2_EeS1kvzSLZNJPQ" operation="_7bLsMO2_EeS1kvzSLZNJPQ">
         <argument xmi:id="_7bLsZe2_EeS1kvzSLZNJPQ" name="m" incoming="_7bLsRe2_EeS1kvzSLZNJPQ" inPartition="_7bLsOO2_EeS1kvzSLZNJPQ" type="_1xwf4O5LEeSnRr3a-ivL8A"/>
         <result xmi:id="_7bLsZu2_EeS1kvzSLZNJPQ" name="" outgoing="_7bLsQe2_EeS1kvzSLZNJPQ" inPartition="_7bLsOO2_EeS1kvzSLZNJPQ" type="_7bLsie2_EeS1kvzSLZNJPQ"/>

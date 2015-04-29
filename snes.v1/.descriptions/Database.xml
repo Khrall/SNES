@@ -6,6 +6,7 @@
     type="block" 
     >
     <required>
-        <library path="lib/mysql.jar"/>
+        <library path="libs/mysql.jar"/>
+        <package name="snes.v1.database"/>
     </required>
 </block>

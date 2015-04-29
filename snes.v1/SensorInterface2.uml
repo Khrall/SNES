@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:arctis="http:///schemas/arctis/_WFTqUHjGEdyxtoUMycQn9Q/10" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:graphics="http:///schemas/graphics/_gd9EwIuAEdytfOWtpACIqw/6" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http:///schemas/arctis/_WFTqUHjGEdyxtoUMycQn9Q/10 pathmap://ARCTIS_PROFILES/arctis.profile.uml#_WFTqUXjGEdyxtoUMycQn9Q http:///schemas/graphics/_gd9EwIuAEdytfOWtpACIqw/6 pathmap://RAMSES_GRAPHIC_PROFILES/no.ntnu.item.ramses.graphicprofile.uml#_geG1wIuAEdytfOWtpACIqw">
+<xmi:XMI xmi:version="20110701" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:arctis="http:///schemas/arctis/_WFTqUHjGEdyxtoUMycQn9Q/10" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:graphics="http:///schemas/graphics/_gd9EwIuAEdytfOWtpACIqw/6" xmlns:uml="http://www.eclipse.org/uml2/4.0.0/UML" xsi:schemaLocation="http:///schemas/arctis/_WFTqUHjGEdyxtoUMycQn9Q/10 pathmap://ARCTIS_PROFILES/arctis.profile.uml#_WFTqUXjGEdyxtoUMycQn9Q http:///schemas/graphics/_gd9EwIuAEdytfOWtpACIqw/6 pathmap://RAMSES_GRAPHIC_PROFILES/no.ntnu.item.ramses.graphicprofile.uml#_geG1wIuAEdytfOWtpACIqw">
   <uml:Package xmi:id="_U-inQOtzEeS6YZvSOJEjKQ" name="snes.v1">
     <packagedElement xmi:type="uml:Activity" xmi:id="_U-inQetzEeS6YZvSOJEjKQ" name="SensorInterface2" classifierBehavior="_U-inROtzEeS6YZvSOJEjKQ" node="_U-inZetzEeS6YZvSOJEjKQ _U-incutzEeS6YZvSOJEjKQ _U-infutzEeS6YZvSOJEjKQ _m3CZ4OzTEeSVhd3aNhg8oA _g7VbAOzUEeSVhd3aNhg8oA _4dgE0OzUEeSVhd3aNhg8oA __z_KMOzUEeSVhd3aNhg8oA _CZKcsOzVEeSVhd3aNhg8oA _K8VQQOzYEeSVhd3aNhg8oA _PzRKAOzYEeSVhd3aNhg8oA _bNRvMOzYEeSVhd3aNhg8oA _vYLiQOzYEeSVhd3aNhg8oA _zxzN4OzYEeSVhd3aNhg8oA _nGLgwOzhEeSVhd3aNhg8oA _vCpBAOzhEeSVhd3aNhg8oA _zpCu8OziEeSVhd3aNhg8oA _Q2B3YO2wEeSBhuNmK4pW6Q _Sy1iUO2wEeSBhuNmK4pW6Q _aljQsO2wEeSBhuNmK4pW6Q _1ImcIO2xEeSBhuNmK4pW6Q _2U-IoO2xEeSBhuNmK4pW6Q _5YBp8O2xEeSBhuNmK4pW6Q _B1IZIO2yEeSBhuNmK4pW6Q _GFwg0O2yEeSBhuNmK4pW6Q _OGDYMO2yEeSBhuNmK4pW6Q _TlYHoO2yEeSBhuNmK4pW6Q _nYfFwO2yEeSBhuNmK4pW6Q" group="_U-inV-tzEeS6YZvSOJEjKQ" partition="_U-inV-tzEeS6YZvSOJEjKQ">
       <ownedComment xmi:id="_U-inQutzEeS6YZvSOJEjKQ">
@@ -36,7 +36,7 @@
       <ownedParameter xmi:id="_Pzd-UOzYEeSVhd3aNhg8oA" name="stop"/>
       <ownedParameter xmi:id="_vYYWkOzYEeSVhd3aNhg8oA" name="stopped" direction="out"/>
       <ownedParameter xmi:id="_nGZjMOzhEeSVhd3aNhg8oA" name="initError" type="_U-inr-tzEeS6YZvSOJEjKQ" direction="out"/>
-      <ownedParameter xmi:id="_Tl-kkO2yEeSBhuNmK4pW6Q" name="newEvent" direction="out" isStream="true"/>
+      <ownedParameter xmi:id="_Tl-kkO2yEeSBhuNmK4pW6Q" name="newEvent" type="_U-inretzEeS6YZvSOJEjKQ" direction="out" isStream="true"/>
       <edge xmi:type="uml:ObjectFlow" xmi:id="_o8J20OzUEeSVhd3aNhg8oA" name="e12" inPartition="_U-inV-tzEeS6YZvSOJEjKQ" target="_nUShIOzUEeSVhd3aNhg8oA" source="_m3CZ4OzTEeSVhd3aNhg8oA"/>
       <edge xmi:type="uml:ControlFlow" xmi:id="_-VSXkOzUEeSVhd3aNhg8oA" name="e0" inPartition="_U-inV-tzEeS6YZvSOJEjKQ" target="_4dgE0OzUEeSVhd3aNhg8oA" source="_g7VbAOzUEeSVhd3aNhg8oA"/>
       <edge xmi:type="uml:ControlFlow" xmi:id="_WAgPsOzVEeSVhd3aNhg8oA" name="e1" inPartition="_U-inV-tzEeS6YZvSOJEjKQ" target="__z_KMOzUEeSVhd3aNhg8oA" source="_4dgE0OzUEeSVhd3aNhg8oA"/>
@@ -133,7 +133,7 @@
       <node xmi:type="uml:MergeNode" xmi:id="_B1IZIO2yEeSBhuNmK4pW6Q" name="m0" incoming="_Cp76MO2yEeSBhuNmK4pW6Q _pIqp8O2yEeSBhuNmK4pW6Q" outgoing="_DLmc0O2yEeSBhuNmK4pW6Q" inPartition="_U-inV-tzEeS6YZvSOJEjKQ"/>
       <node xmi:type="uml:FlowFinalNode" xmi:id="_GFwg0O2yEeSBhuNmK4pW6Q" name="z0" incoming="_bTMH4O2yEeSBhuNmK4pW6Q _bvZiwO2yEeSBhuNmK4pW6Q" inPartition="_U-inV-tzEeS6YZvSOJEjKQ"/>
       <node xmi:type="uml:DecisionNode" xmi:id="_OGDYMO2yEeSBhuNmK4pW6Q" name="d1" incoming="_PXmfoO2yEeSBhuNmK4pW6Q" outgoing="_U8XIsO2yEeSBhuNmK4pW6Q _bTMH4O2yEeSBhuNmK4pW6Q" inPartition="_U-inV-tzEeS6YZvSOJEjKQ"/>
-      <node xmi:type="uml:ActivityParameterNode" xmi:id="_TlYHoO2yEeSBhuNmK4pW6Q" name="newEvent" incoming="_U8XIsO2yEeSBhuNmK4pW6Q" inPartition="_U-inV-tzEeS6YZvSOJEjKQ" parameter="_Tl-kkO2yEeSBhuNmK4pW6Q"/>
+      <node xmi:type="uml:ActivityParameterNode" xmi:id="_TlYHoO2yEeSBhuNmK4pW6Q" name="newEvent" incoming="_U8XIsO2yEeSBhuNmK4pW6Q" inPartition="_U-inV-tzEeS6YZvSOJEjKQ" type="_U-inretzEeS6YZvSOJEjKQ" parameter="_Tl-kkO2yEeSBhuNmK4pW6Q"/>
       <node xmi:type="uml:CallOperationAction" xmi:id="_nYfFwO2yEeSBhuNmK4pW6Q" name="o2" incoming="_o7XNwO2yEeSBhuNmK4pW6Q" outgoing="_pIqp8O2yEeSBhuNmK4pW6Q" inPartition="_U-inV-tzEeS6YZvSOJEjKQ" operation="_U-inUutzEeS6YZvSOJEjKQ"/>
     </packagedElement>
     <packagedElement xmi:type="uml:Package" xmi:id="_U-inhutzEeS6YZvSOJEjKQ" name="com.bitreactive.library.rpi.gpio">
