@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<block
+    name="SensorInterfaceSimple" 
+    uuid="_zSD8oe_zEeS6DaoC-oQu0w" 
+    status="under construction" 
+    type="block" 
+    >
+    <required>
+        <block name="c0" uuid="_NgzUId_EEeGTqJKutJKuOQ"/>
+        <block name="c1" uuid="_NgzUId_EEeGTqJKutJKuOQ"/>
+    </required>
+</block>

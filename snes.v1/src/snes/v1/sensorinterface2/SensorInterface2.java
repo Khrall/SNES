@@ -6,6 +6,7 @@ public class SensorInterface2 extends Block {
 	public int PinInPIR;
 	public int PinOutPIR;
 
+
 	private static final int // Event
 	IN_LOW = 0,
 	IN_HIGH = 1,
@@ -128,6 +129,11 @@ public class SensorInterface2 extends Block {
 		oldState = state;
 		state = newState;
 		System.out.println("CHANGED STATE: "+STATE[oldState]+" -> "+STATE[newState]);
+		
+		if(newState == MOVING_OUT) peopleTracked = 1;
+		if(newState == MOVING_IN) peopleTracked = -1;
+		if((oldState  == STOPPING_OUT || oldState == STOPPING_IN) && newState == IDLE) motionEnded = true;
+		if(oldState == IDLE) motionEnded = false;
 	}
 
 	public void setParameters(int[] params) {
