@@ -130,8 +130,8 @@ public class SensorInterface2 extends Block {
 		state = newState;
 		System.out.println("CHANGED STATE: "+STATE[oldState]+" -> "+STATE[newState]);
 		
-		if(newState == MOVING_OUT) peopleTracked = 1;
-		if(newState == MOVING_IN) peopleTracked = -1;
+		if(newState == MOVING_OUT) peopleTracked = -1;
+		if(newState == MOVING_IN) peopleTracked = 1;
 		if((oldState  == STOPPING_OUT || oldState == STOPPING_IN) && newState == IDLE) motionEnded = true;
 		if(oldState == IDLE) motionEnded = false;
 	}
